@@ -2177,8 +2177,12 @@ def prune_deal_rooms(state):
     """
 
     live = set()
-    for contract_id in state.get("tclk_contracts", {}):
+    for contract_id, contract in state.get("tclk_contracts", {}).items():
         if not isinstance(contract_id, str):
+            continue
+        # Resolved contracts are retained as compact idempotency tombstones,
+        # but their derived rooms no longer need to be polled after restart.
+        if isinstance(contract, dict) and contract.get("candidate_posted"):
             continue
         try:
             live.add(deal_room(contract_id))

@@ -918,6 +918,24 @@ class DealRoomPruneTests(TempStateTestCase):
         self.assertNotIn(drop_room, st["room_cursors"])
         self.assertEqual(st["room_cursors"]["lobby"], 3)
 
+    def test_prune_drops_rooms_for_resolved_tombstones(self):
+        resolved = "0x" + "c" * 64
+        active = "0x" + "d" * 64
+        resolved_room, active_room = agent.deal_room(resolved), agent.deal_room(active)
+        st = state.load_state()
+        st["tclk_contracts"] = {
+            resolved: {"candidate_posted": True, "updated_at": 1.0},
+            active: {"updated_at": 2.0},
+        }
+        st["tclk_rooms"] = [resolved_room, active_room]
+        st["room_cursors"] = {resolved_room: 1, active_room: 2}
+
+        agent.prune_deal_rooms(st)
+
+        self.assertEqual(st["tclk_rooms"], [active_room])
+        self.assertNotIn(resolved_room, st["room_cursors"])
+        self.assertIn(active_room, st["room_cursors"])
+
 
 if __name__ == "__main__":
     unittest.main()
