@@ -1950,8 +1950,10 @@ def initialize_room_cursors():
         room for room in state.get("room_cursors", {})
         if isinstance(room, str) and room.startswith("mb-p-tclk-")
     )
-    for contract_id in state.get("tclk_contracts", {}):
+    for contract_id, contract in state.get("tclk_contracts", {}).items():
         if not isinstance(contract_id, str):
+            continue
+        if isinstance(contract, dict) and contract.get("candidate_posted"):
             continue
         try:
             persisted_rooms.add(deal_room(contract_id))
