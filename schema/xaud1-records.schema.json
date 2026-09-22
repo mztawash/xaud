@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://technocore.chat/schema/xaud1-records.schema.json",
+  "title": "xaud1 registry records",
+  "description": "Canonical XAUD registry-record frames published to /r/xaud. Wire rules mirror tclk/1: sorted keys, compact separators, ASCII-escaped, single line, fail-closed decode. This schema mirrors the REQUIRED_FIELDS / OPTIONAL_FIELDS constants in xaud_records.py; a conformance test pins the two together.",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/settlement" },
+    { "$ref": "#/$defs/observation" }
+  ],
+  "$defs": {
+    "settlement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "settlement" },
+        "version": { "const": "xaud1" },
+        "contract": { "type": "string", "pattern": "^0x[0-9a-f]{64}$" },
+        "payer": { "$ref": "#/$defs/did" },
+        "payee": { "$ref": "#/$defs/did" },
+        "amount": { "type": "string", "pattern": "^[0-9]+$" },
+        "asset": { "type": "string", "pattern": "^\\S{1,32}$" },
+        "outcome": { "enum": ["claimed", "refunded", "cancelled"] },
+        "status": { "enum": ["terms_verified", "outcome_verified", "transcript_verified"] },
+        "verified_by": { "const": "transcript" },
+        "rail": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "job": { "$ref": "#/$defs/job" },
+        "job_summary": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 }
+      },
+      "required": [
+        "type", "version", "contract", "payer", "payee",
+        "outcome", "status", "verified_by", "evidence"
+      ],
+      "allOf": [
+        {
+          "if": { "properties": { "status": { "enum": ["terms_verified", "transcript_verified"] } }, "required": ["status"] },
+          "then": { "required": ["amount", "asset"] }
+        },
+        {
+          "if": { "properties": { "status": { "const": "outcome_verified" } }, "required": ["status"] },
+          "then": { "not": { "anyOf": [ { "required": ["amount"] }, { "required": ["asset"] } ] } }
+        }
+      ]
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "observation" },
+        "version": { "const": "xaud1" },
+        "status": { "enum": ["observed", "work_verified", "failed", "disputed"] },
+        "identity_status": { "enum": ["identified", "unresolved_sender"] },
+        "verified_by": { "enum": ["transcript", "attestation", "arbiter", "none"] },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "summary": { "type": "string", "minLength": 1 },
+        "agent_did": { "$ref": "#/$defs/did" },
+        "sender": { "type": "string", "minLength": 1 },
+        "task": { "type": "string", "minLength": 1 },
+        "activity_type": { "type": "string" },
+        "score": { "type": "integer", "minimum": 0, "maximum": 20 },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "required": [
+        "type", "version", "status", "identity_status", "evidence", "summary"
+      ]
+    },
+    "did": {
+      "type": "string",
+      "pattern": "^did:key:z6Mk[1-9A-HJ-NP-Za-km-z]{44}$"
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "room": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{0,47}$" },
+        "seq": { "type": "integer", "minimum": 0 },
+        "offer_room": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{0,47}$" },
+        "offer_seq": { "type": "integer", "minimum": 0 }
+      },
+      "required": ["room", "seq"]
+    },
+    "job": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "proto": { "type": "string", "minLength": 1 },
+        "context": {}
+      },
+      "required": ["id"]
+    }
+  }
+}

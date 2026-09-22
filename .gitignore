@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+*.log
+agent_state.json
+agent_state.tmp
+sonnet_state.json
+sonnet_overnight.log
+sonnet_evidence.txt
+
+# Runtime and local history
+.lobby_cursor
+*.pid
+*.bak
+backups/
+*backup*
+agent-live*
+agent_state*
