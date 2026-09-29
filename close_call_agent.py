@@ -24,10 +24,8 @@ PRICE_ROOM = "d-close1-price"
 STATE_FILE = Path(os.environ.get("CLOSE_CALL_STATE", "close_call_state.json"))
 DID_RE = re.compile(r"^did:key:z6Mk[1-9A-HJ-NP-Za-km-z]{44}$")
 BASE_FEE_RATE = 0.01
-STRESS_CLAWBACK_RATE = 0.05
-MIN_EXPECTED_EDGE_RATE = 0.01
-DEFAULT_MAX_POSITION = 0.10
-DEFAULT_MAX_TRADE_QTY = 0.10
+DEFAULT_MAX_POSITION = 20.0
+DEFAULT_MAX_TRADE_QTY = 5.0
 
 
 def load_local_env() -> None:
@@ -55,15 +53,14 @@ def max_position() -> float:
 
 
 def max_trade_qty() -> float:
-    # Never allow configuration to raise the per-accept hard ceiling above 0.10.
-    return min(DEFAULT_MAX_TRADE_QTY, max(0.0, float(os.environ.get("CLOSE_CALL_MAX_TRADE_QTY", "0.10"))))
+    return max(0.1, float(os.environ.get("CLOSE_CALL_MAX_TRADE_QTY", str(DEFAULT_MAX_TRADE_QTY))))
 
 
 def expected_edge_for_side(position_side: str, price: float, reference: float, forecast: float) -> tuple[bool, float]:
-    """Require forecasted PnL to exceed a conservative fee/clawback stress."""
-    fee_stress = max(BASE_FEE_RATE * price, STRESS_CLAWBACK_RATE * price)
+    """Fee is 1% of price. Require about 1.5% of edge to the forecast, not 6%."""
+    fee = BASE_FEE_RATE * price
     expected_pnl = forecast - price if position_side == "buy" else price - forecast
-    required = fee_stress + MIN_EXPECTED_EDGE_RATE * price
+    required = fee + 0.005 * price
     return expected_pnl >= required, expected_pnl - required
 
 
@@ -337,6 +334,8 @@ def main() -> None:
         raise SystemExit("CLOSE_CALL_FORECAST_FINAL_PRICE must be positive")
 
     state = load_state()
+    unreconciled_probe = False
+    allow_unreconciled_live = False
     if live:
         if forecast is None:
             raise SystemExit("live trading blocked: set CLOSE_CALL_FORECAST_FINAL_PRICE")
@@ -399,24 +398,20 @@ def main() -> None:
         key, did, state, body.get("messages", []), sweep, reference,
         forecast, unreconciled_probe, dry_run
     )
-    # Quote at the current reference only in the direction supported by the
-    # forecast, and only when forecast edge exceeds fee + clawback stress.
+    # Quote the reference on the forecast side only, once per sweep.
     quote = round(reference, 2)
-    offer = round(reference, 2)
-    position = round(
-        state.get("position", 0.0) + state.get("pending_position", 0.0), 2
-    )
-    long_edge, long_surplus = expected_edge_for_side("buy", quote, reference, forecast)
-    short_edge, short_surplus = expected_edge_for_side("sell", offer, reference, forecast)
+    position = round(state.get("position", 0.0) + state.get("pending_position", 0.0), 2)
     max_pos = max_position()
-    qty = max_trade_qty()
-    if (not unreconciled_probe or allow_unreconciled_live) and state.get("last_quote_sweep") != sweep:
-        if long_edge and position + qty <= max_pos:
+    qty = min(max_trade_qty(), max(0.0, max_pos - abs(position)))
+    qty = float(f"{qty:.2f}")
+    can_quote = (not unreconciled_probe or allow_unreconciled_live) and state.get("last_quote_sweep") != sweep
+    if can_quote and qty >= 0.1:
+        if forecast > reference and position + qty <= max_pos:
             make_offer(key, did, state, quote, "buy", qty, sweep + 2, dry_run)
-            print(f"{'DRY_RUN ' if dry_run else ''}posted forecast-edge buy px={quote:.2f} qty={qty:.2f} edge_after_stress={long_surplus:.4f}", flush=True)
-        if short_edge and position - qty >= -max_pos:
-            make_offer(key, did, state, offer, "sell", qty, sweep + 2, dry_run)
-            print(f"{'DRY_RUN ' if dry_run else ''}posted forecast-edge sell px={offer:.2f} qty={qty:.2f} edge_after_stress={short_surplus:.4f}", flush=True)
+            print(f"{'DRY_RUN ' if dry_run else ''}posted buy px={quote:.2f} qty={qty:.2f}", flush=True)
+        elif forecast < reference and position - qty >= -max_pos:
+            make_offer(key, did, state, quote, "sell", qty, sweep + 2, dry_run)
+            print(f"{'DRY_RUN ' if dry_run else ''}posted sell px={quote:.2f} qty={qty:.2f}", flush=True)
         state["last_quote_sweep"] = sweep
     if live:
         save_state(state)
