@@ -1,0 +1,3588 @@
+{
+  "nonce": 1790626195907,
+  "offers": {
+    "xaud-1790339351184-buy": {
+      "id": "xaud-1790339351184-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.95",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 7
+    },
+    "xaud-1790339351185-sell": {
+      "id": "xaud-1790339351185-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.21",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 7
+    },
+    "xaud-1790339504357-buy": {
+      "id": "xaud-1790339504357-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 8
+    },
+    "xaud-1790339505629-sell": {
+      "id": "xaud-1790339505629-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 8
+    },
+    "xaud-1790339678175-buy": {
+      "id": "xaud-1790339678175-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 8
+    },
+    "xaud-1790339679243-sell": {
+      "id": "xaud-1790339679243-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 8
+    },
+    "xaud-1790339779485-buy": {
+      "id": "xaud-1790339779485-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.74",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 9
+    },
+    "xaud-1790339780335-sell": {
+      "id": "xaud-1790339780335-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.00",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 9
+    },
+    "xaud-1790339994520-buy": {
+      "id": "xaud-1790339994520-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.74",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 9
+    },
+    "xaud-1790339995951-sell": {
+      "id": "xaud-1790339995951-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.00",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 9
+    },
+    "xaud-1790340244379-buy": {
+      "id": "xaud-1790340244379-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.77",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 10
+    },
+    "xaud-1790340246568-sell": {
+      "id": "xaud-1790340246568-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.03",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 10
+    },
+    "xaud-1790340493960-buy": {
+      "id": "xaud-1790340493960-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.54",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 11
+    },
+    "xaud-1790340495086-sell": {
+      "id": "xaud-1790340495086-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.80",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 11
+    },
+    "xaud-1790340534288-buy": {
+      "id": "xaud-1790340534288-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.54",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 11
+    },
+    "xaud-1790340535578-sell": {
+      "id": "xaud-1790340535578-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.80",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 11
+    },
+    "xaud-1790340782532-buy": {
+      "id": "xaud-1790340782532-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.32",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 12
+    },
+    "xaud-1790340783883-sell": {
+      "id": "xaud-1790340783883-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.58",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 12
+    },
+    "xaud-1790341027916-buy": {
+      "id": "xaud-1790341027916-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.34",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 13
+    },
+    "xaud-1790341029304-sell": {
+      "id": "xaud-1790341029304-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.60",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 13
+    },
+    "xaud-1790341274070-buy": {
+      "id": "xaud-1790341274070-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.40",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 14
+    },
+    "xaud-1790341275162-sell": {
+      "id": "xaud-1790341275162-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.66",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 14
+    },
+    "xaud-1790341370692-buy": {
+      "id": "xaud-1790341370692-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.40",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 14
+    },
+    "xaud-1790341371916-sell": {
+      "id": "xaud-1790341371916-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.66",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 14
+    },
+    "xaud-1790341618682-buy": {
+      "id": "xaud-1790341618682-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.40",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 14
+    },
+    "xaud-1790341620615-sell": {
+      "id": "xaud-1790341620615-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.66",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 14
+    },
+    "xaud-1790341866621-buy": {
+      "id": "xaud-1790341866621-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.44",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 15
+    },
+    "xaud-1790341869673-sell": {
+      "id": "xaud-1790341869673-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.70",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 15
+    },
+    "xaud-1790342116791-buy": {
+      "id": "xaud-1790342116791-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.44",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 16
+    },
+    "xaud-1790342117734-sell": {
+      "id": "xaud-1790342117734-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.70",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 16
+    },
+    "xaud-1790342366557-buy": {
+      "id": "xaud-1790342366557-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.44",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 17
+    },
+    "xaud-1790342368146-sell": {
+      "id": "xaud-1790342368146-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.70",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 17
+    },
+    "xaud-1790342614053-buy": {
+      "id": "xaud-1790342614053-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.31",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 18
+    },
+    "xaud-1790342615169-sell": {
+      "id": "xaud-1790342615169-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.57",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 18
+    },
+    "xaud-1790342862055-buy": {
+      "id": "xaud-1790342862055-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.19",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 19
+    },
+    "xaud-1790342863484-sell": {
+      "id": "xaud-1790342863484-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.45",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 19
+    },
+    "xaud-1790343109877-buy": {
+      "id": "xaud-1790343109877-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.07",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 20
+    },
+    "xaud-1790343114370-sell": {
+      "id": "xaud-1790343114370-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.33",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 20
+    },
+    "xaud-1790343362400-buy": {
+      "id": "xaud-1790343362400-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.07",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 20
+    },
+    "xaud-1790343364637-sell": {
+      "id": "xaud-1790343364637-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.33",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 20
+    },
+    "xaud-1790343614903-buy": {
+      "id": "xaud-1790343614903-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.52",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 21
+    },
+    "xaud-1790343617360-sell": {
+      "id": "xaud-1790343617360-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.78",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 21
+    },
+    "xaud-1790343862927-buy": {
+      "id": "xaud-1790343862927-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.52",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 21
+    },
+    "xaud-1790343864767-sell": {
+      "id": "xaud-1790343864767-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "227.78",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 21
+    },
+    "xaud-1790344112032-buy": {
+      "id": "xaud-1790344112032-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.99",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 23
+    },
+    "xaud-1790344112934-sell": {
+      "id": "xaud-1790344112934-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.25",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 23
+    },
+    "xaud-1790344358235-buy": {
+      "id": "xaud-1790344358235-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 24
+    },
+    "xaud-1790344360893-sell": {
+      "id": "xaud-1790344360893-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 24
+    },
+    "xaud-1790344606677-buy": {
+      "id": "xaud-1790344606677-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 24
+    },
+    "xaud-1790344608717-sell": {
+      "id": "xaud-1790344608717-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 24
+    },
+    "xaud-1790344860024-buy": {
+      "id": "xaud-1790344860024-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790344863094-sell": {
+      "id": "xaud-1790344863094-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345112870-buy": {
+      "id": "xaud-1790345112870-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345116145-sell": {
+      "id": "xaud-1790345116145-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345363820-buy": {
+      "id": "xaud-1790345363820-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345365249-sell": {
+      "id": "xaud-1790345365249-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345611302-buy": {
+      "id": "xaud-1790345611302-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345612732-sell": {
+      "id": "xaud-1790345612732-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345859715-buy": {
+      "id": "xaud-1790345859715-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790345860736-sell": {
+      "id": "xaud-1790345860736-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790346107608-buy": {
+      "id": "xaud-1790346107608-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790346109245-sell": {
+      "id": "xaud-1790346109245-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 25
+    },
+    "xaud-1790346355460-buy": {
+      "id": "xaud-1790346355460-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 26
+    },
+    "xaud-1790346356289-sell": {
+      "id": "xaud-1790346356289-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 26
+    },
+    "xaud-1790346604932-buy": {
+      "id": "xaud-1790346604932-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 29
+    },
+    "xaud-1790346610254-sell": {
+      "id": "xaud-1790346610254-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 29
+    },
+    "xaud-1790346856645-buy": {
+      "id": "xaud-1790346856645-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 30
+    },
+    "xaud-1790346857524-sell": {
+      "id": "xaud-1790346857524-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 30
+    },
+    "xaud-1790347107116-buy": {
+      "id": "xaud-1790347107116-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 31
+    },
+    "xaud-1790347109776-sell": {
+      "id": "xaud-1790347109776-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 31
+    },
+    "xaud-1790347355947-buy": {
+      "id": "xaud-1790347355947-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 32
+    },
+    "xaud-1790347357377-sell": {
+      "id": "xaud-1790347357377-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 32
+    },
+    "xaud-1790369946733-buy": {
+      "id": "xaud-1790369946733-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.92",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790369947629-sell": {
+      "id": "xaud-1790369947629-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.18",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790369957068-buy": {
+      "id": "xaud-1790369957068-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.92",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790369967719-buy": {
+      "id": "xaud-1790369967719-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.92",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790369977118-buy": {
+      "id": "xaud-1790369977118-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.92",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790369987783-buy": {
+      "id": "xaud-1790369987783-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.92",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790369997007-buy": {
+      "id": "xaud-1790369997007-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.92",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790370005706-buy": {
+      "id": "xaud-1790370005706-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.92",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 109
+    },
+    "xaud-1790370015553-buy": {
+      "id": "xaud-1790370015553-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370026393-buy": {
+      "id": "xaud-1790370026393-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370038270-buy": {
+      "id": "xaud-1790370038270-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370052203-buy": {
+      "id": "xaud-1790370052203-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370061308-buy": {
+      "id": "xaud-1790370061308-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370074526-buy": {
+      "id": "xaud-1790370074526-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370084259-buy": {
+      "id": "xaud-1790370084259-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370093061-buy": {
+      "id": "xaud-1790370093061-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370103507-buy": {
+      "id": "xaud-1790370103507-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370179179-buy": {
+      "id": "xaud-1790370179179-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370179708-sell": {
+      "id": "xaud-1790370179708-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370189624-buy": {
+      "id": "xaud-1790370189624-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370190649-sell": {
+      "id": "xaud-1790370190649-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370199746-buy": {
+      "id": "xaud-1790370199746-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370200887-sell": {
+      "id": "xaud-1790370200887-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370210411-buy": {
+      "id": "xaud-1790370210411-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370211027-sell": {
+      "id": "xaud-1790370211027-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370219823-buy": {
+      "id": "xaud-1790370219823-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370220856-sell": {
+      "id": "xaud-1790370220856-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370229562-buy": {
+      "id": "xaud-1790370229562-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370230588-sell": {
+      "id": "xaud-1790370230588-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370240106-buy": {
+      "id": "xaud-1790370240106-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370240909-sell": {
+      "id": "xaud-1790370240909-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370249838-buy": {
+      "id": "xaud-1790370249838-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370250454-sell": {
+      "id": "xaud-1790370250454-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370259352-buy": {
+      "id": "xaud-1790370259352-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370260088-sell": {
+      "id": "xaud-1790370260088-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370269920-buy": {
+      "id": "xaud-1790370269920-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370270622-sell": {
+      "id": "xaud-1790370270622-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370279423-buy": {
+      "id": "xaud-1790370279423-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370280453-sell": {
+      "id": "xaud-1790370280453-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370289055-buy": {
+      "id": "xaud-1790370289055-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370289758-sell": {
+      "id": "xaud-1790370289758-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370298773-buy": {
+      "id": "xaud-1790370298773-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370299499-sell": {
+      "id": "xaud-1790370299499-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370308098-buy": {
+      "id": "xaud-1790370308098-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370308926-sell": {
+      "id": "xaud-1790370308926-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 110
+    },
+    "xaud-1790370318539-buy": {
+      "id": "xaud-1790370318539-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 111
+    },
+    "xaud-1790370319682-sell": {
+      "id": "xaud-1790370319682-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 111
+    },
+    "xaud-1790370329710-buy": {
+      "id": "xaud-1790370329710-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.93",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 111
+    },
+    "xaud-1790370330442-sell": {
+      "id": "xaud-1790370330442-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 111
+    },
+    "xaud-1790370474507-sell": {
+      "id": "xaud-1790370474507-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.19",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 111
+    },
+    "xaud-1790370720430-sell": {
+      "id": "xaud-1790370720430-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.15",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 112
+    },
+    "xaud-1790370968526-sell": {
+      "id": "xaud-1790370968526-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.14",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 113
+    },
+    "xaud-1790371457523-sell": {
+      "id": "xaud-1790371457523-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.17",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 114
+    },
+    "xaud-1790371702976-sell": {
+      "id": "xaud-1790371702976-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.18",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 115
+    },
+    "xaud-1790371948634-sell": {
+      "id": "xaud-1790371948634-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.27",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 116
+    },
+    "xaud-1790372195243-sell": {
+      "id": "xaud-1790372195243-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.38",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 117
+    },
+    "xaud-1790372439743-sell": {
+      "id": "xaud-1790372439743-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.32",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 118
+    },
+    "xaud-1790372929936-sell": {
+      "id": "xaud-1790372929936-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.41",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 119
+    },
+    "xaud-1790373174410-sell": {
+      "id": "xaud-1790373174410-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.37",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 120
+    },
+    "xaud-1790373423510-sell": {
+      "id": "xaud-1790373423510-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.32",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 121
+    },
+    "xaud-1790373668143-sell": {
+      "id": "xaud-1790373668143-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.30",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 122
+    },
+    "xaud-1790374157407-sell": {
+      "id": "xaud-1790374157407-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.30",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 123
+    },
+    "xaud-1790374401839-sell": {
+      "id": "xaud-1790374401839-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.27",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 124
+    },
+    "xaud-1790374646480-sell": {
+      "id": "xaud-1790374646480-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.28",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 125
+    },
+    "xaud-1790374894005-buy": {
+      "id": "xaud-1790374894005-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.00",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 126
+    },
+    "xaud-1790374895104-sell": {
+      "id": "xaud-1790374895104-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.26",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 126
+    },
+    "xaud-1790375141640-buy": {
+      "id": "xaud-1790375141640-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.01",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 127
+    },
+    "xaud-1790375142579-sell": {
+      "id": "xaud-1790375142579-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.27",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 127
+    },
+    "xaud-1790375632005-buy": {
+      "id": "xaud-1790375632005-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.02",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 128
+    },
+    "xaud-1790375633129-sell": {
+      "id": "xaud-1790375633129-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.28",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 128
+    },
+    "xaud-1790375879092-buy": {
+      "id": "xaud-1790375879092-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.03",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 129
+    },
+    "xaud-1790375879705-sell": {
+      "id": "xaud-1790375879705-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.29",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 129
+    },
+    "xaud-1790376124301-buy": {
+      "id": "xaud-1790376124301-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.07",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 130
+    },
+    "xaud-1790376125375-sell": {
+      "id": "xaud-1790376125375-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.33",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 130
+    },
+    "xaud-1790376372852-buy": {
+      "id": "xaud-1790376372852-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.06",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 131
+    },
+    "xaud-1790376375811-sell": {
+      "id": "xaud-1790376375811-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.32",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 131
+    },
+    "xaud-1790376620852-buy": {
+      "id": "xaud-1790376620852-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.06",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 132
+    },
+    "xaud-1790376621560-sell": {
+      "id": "xaud-1790376621560-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.32",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 132
+    },
+    "xaud-1790377112200-buy": {
+      "id": "xaud-1790377112200-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.05",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 133
+    },
+    "xaud-1790377113129-sell": {
+      "id": "xaud-1790377113129-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.31",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 133
+    },
+    "xaud-1790377357991-buy": {
+      "id": "xaud-1790377357991-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.07",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 134
+    },
+    "xaud-1790377358704-sell": {
+      "id": "xaud-1790377358704-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.33",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 134
+    },
+    "xaud-1790377603861-buy": {
+      "id": "xaud-1790377603861-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.07",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 135
+    },
+    "xaud-1790377604785-sell": {
+      "id": "xaud-1790377604785-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.33",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 135
+    },
+    "xaud-1790377851578-buy": {
+      "id": "xaud-1790377851578-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.06",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 136
+    },
+    "xaud-1790377852812-sell": {
+      "id": "xaud-1790377852812-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.32",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 136
+    },
+    "xaud-1790378341952-buy": {
+      "id": "xaud-1790378341952-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.05",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 137
+    },
+    "xaud-1790378342569-sell": {
+      "id": "xaud-1790378342569-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.31",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 137
+    },
+    "xaud-1790378586521-buy": {
+      "id": "xaud-1790378586521-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.05",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 138
+    },
+    "xaud-1790378587345-sell": {
+      "id": "xaud-1790378587345-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.31",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 138
+    },
+    "xaud-1790378832190-buy": {
+      "id": "xaud-1790378832190-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.06",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 139
+    },
+    "xaud-1790378833216-sell": {
+      "id": "xaud-1790378833216-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.32",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 139
+    },
+    "xaud-1790379077643-buy": {
+      "id": "xaud-1790379077643-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "224.02",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 140
+    },
+    "xaud-1790379078352-sell": {
+      "id": "xaud-1790379078352-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.28",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 140
+    },
+    "xaud-1790379323201-buy": {
+      "id": "xaud-1790379323201-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.99",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 141
+    },
+    "xaud-1790379324229-sell": {
+      "id": "xaud-1790379324229-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.25",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 141
+    },
+    "xaud-1790379814312-buy": {
+      "id": "xaud-1790379814312-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.94",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 142
+    },
+    "xaud-1790379815363-sell": {
+      "id": "xaud-1790379815363-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.20",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 142
+    },
+    "xaud-1790380063874-buy": {
+      "id": "xaud-1790380063874-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 143
+    },
+    "xaud-1790380064900-sell": {
+      "id": "xaud-1790380064900-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 143
+    },
+    "xaud-1790380309226-buy": {
+      "id": "xaud-1790380309226-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.89",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 144
+    },
+    "xaud-1790380310048-sell": {
+      "id": "xaud-1790380310048-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.15",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 144
+    },
+    "xaud-1790380554170-buy": {
+      "id": "xaud-1790380554170-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.88",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 145
+    },
+    "xaud-1790380555095-sell": {
+      "id": "xaud-1790380555095-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.14",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 145
+    },
+    "xaud-1790381044359-buy": {
+      "id": "xaud-1790381044359-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.94",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 146
+    },
+    "xaud-1790381045197-sell": {
+      "id": "xaud-1790381045197-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.20",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 146
+    },
+    "xaud-1790381290120-buy": {
+      "id": "xaud-1790381290120-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.95",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 147
+    },
+    "xaud-1790381290977-sell": {
+      "id": "xaud-1790381290977-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.21",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 147
+    },
+    "xaud-1790381535168-buy": {
+      "id": "xaud-1790381535168-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.97",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 148
+    },
+    "xaud-1790381535789-sell": {
+      "id": "xaud-1790381535789-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.23",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 148
+    },
+    "xaud-1790381780378-buy": {
+      "id": "xaud-1790381780378-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.96",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 149
+    },
+    "xaud-1790381781346-sell": {
+      "id": "xaud-1790381781346-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.22",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 149
+    },
+    "xaud-1790382026030-buy": {
+      "id": "xaud-1790382026030-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.89",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 150
+    },
+    "xaud-1790382026795-sell": {
+      "id": "xaud-1790382026795-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.15",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 150
+    },
+    "xaud-1790382516057-buy": {
+      "id": "xaud-1790382516057-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.90",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 151
+    },
+    "xaud-1790382516677-sell": {
+      "id": "xaud-1790382516677-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.16",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 151
+    },
+    "xaud-1790382761723-buy": {
+      "id": "xaud-1790382761723-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.86",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 152
+    },
+    "xaud-1790382762852-sell": {
+      "id": "xaud-1790382762852-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "226.10",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 152
+    },
+    "xaud-1790383008102-buy": {
+      "id": "xaud-1790383008102-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.62",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 153
+    },
+    "xaud-1790383009124-sell": {
+      "id": "xaud-1790383009124-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.86",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 153
+    },
+    "xaud-1790383253554-buy": {
+      "id": "xaud-1790383253554-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.53",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 154
+    },
+    "xaud-1790383254668-sell": {
+      "id": "xaud-1790383254668-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.77",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 154
+    },
+    "xaud-1790383742169-buy": {
+      "id": "xaud-1790383742169-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.41",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 155
+    },
+    "xaud-1790383743196-sell": {
+      "id": "xaud-1790383743196-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.65",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 155
+    },
+    "xaud-1790383988122-buy": {
+      "id": "xaud-1790383988122-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.48",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 156
+    },
+    "xaud-1790383988745-sell": {
+      "id": "xaud-1790383988745-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.72",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 156
+    },
+    "xaud-1790384233580-buy": {
+      "id": "xaud-1790384233580-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.48",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 157
+    },
+    "xaud-1790384234295-sell": {
+      "id": "xaud-1790384234295-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.72",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 157
+    },
+    "xaud-1790384479755-buy": {
+      "id": "xaud-1790384479755-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.44",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 158
+    },
+    "xaud-1790384480784-sell": {
+      "id": "xaud-1790384480784-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.68",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 158
+    },
+    "xaud-1790384725102-buy": {
+      "id": "xaud-1790384725102-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.42",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 159
+    },
+    "xaud-1790384726011-sell": {
+      "id": "xaud-1790384726011-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.66",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 159
+    },
+    "xaud-1790385214675-buy": {
+      "id": "xaud-1790385214675-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.39",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 160
+    },
+    "xaud-1790385215811-sell": {
+      "id": "xaud-1790385215811-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.63",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 160
+    },
+    "xaud-1790385460415-buy": {
+      "id": "xaud-1790385460415-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.43",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 161
+    },
+    "xaud-1790385461356-sell": {
+      "id": "xaud-1790385461356-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.67",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 161
+    },
+    "xaud-1790385706070-buy": {
+      "id": "xaud-1790385706070-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.44",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 162
+    },
+    "xaud-1790385707003-sell": {
+      "id": "xaud-1790385707003-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.68",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 162
+    },
+    "xaud-1790385951953-buy": {
+      "id": "xaud-1790385951953-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.38",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 163
+    },
+    "xaud-1790385952669-sell": {
+      "id": "xaud-1790385952669-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.62",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 163
+    },
+    "xaud-1790386443273-buy": {
+      "id": "xaud-1790386443273-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.38",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 164
+    },
+    "xaud-1790386443989-sell": {
+      "id": "xaud-1790386443989-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.62",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 164
+    },
+    "xaud-1790386689325-buy": {
+      "id": "xaud-1790386689325-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.51",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 165
+    },
+    "xaud-1790386690352-sell": {
+      "id": "xaud-1790386690352-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.75",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 165
+    },
+    "xaud-1790386934694-buy": {
+      "id": "xaud-1790386934694-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.59",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 166
+    },
+    "xaud-1790386935717-sell": {
+      "id": "xaud-1790386935717-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.83",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 166
+    },
+    "xaud-1790387180290-buy": {
+      "id": "xaud-1790387180290-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.60",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 167
+    },
+    "xaud-1790387181157-sell": {
+      "id": "xaud-1790387181157-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.84",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 167
+    },
+    "xaud-1790387425920-buy": {
+      "id": "xaud-1790387425920-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.63",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 168
+    },
+    "xaud-1790387426646-sell": {
+      "id": "xaud-1790387426646-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.87",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 168
+    },
+    "xaud-1790387916233-buy": {
+      "id": "xaud-1790387916233-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.67",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 169
+    },
+    "xaud-1790387917048-sell": {
+      "id": "xaud-1790387917048-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.91",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 169
+    },
+    "xaud-1790388161903-buy": {
+      "id": "xaud-1790388161903-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.66",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 170
+    },
+    "xaud-1790388163247-sell": {
+      "id": "xaud-1790388163247-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.90",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 170
+    },
+    "xaud-1790388411959-buy": {
+      "id": "xaud-1790388411959-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.55",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 171
+    },
+    "xaud-1790388412930-sell": {
+      "id": "xaud-1790388412930-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.79",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 171
+    },
+    "xaud-1790388661524-buy": {
+      "id": "xaud-1790388661524-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.63",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 172
+    },
+    "xaud-1790388662225-sell": {
+      "id": "xaud-1790388662225-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.87",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 172
+    },
+    "xaud-1790389152927-buy": {
+      "id": "xaud-1790389152927-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.65",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 173
+    },
+    "xaud-1790389154385-sell": {
+      "id": "xaud-1790389154385-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.89",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 173
+    },
+    "xaud-1790389398994-buy": {
+      "id": "xaud-1790389398994-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.63",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 174
+    },
+    "xaud-1790389400133-sell": {
+      "id": "xaud-1790389400133-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.87",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 174
+    },
+    "xaud-1790389644868-buy": {
+      "id": "xaud-1790389644868-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.63",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 175
+    },
+    "xaud-1790389645990-sell": {
+      "id": "xaud-1790389645990-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.87",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 175
+    },
+    "xaud-1790389891240-buy": {
+      "id": "xaud-1790389891240-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.59",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 176
+    },
+    "xaud-1790389892369-sell": {
+      "id": "xaud-1790389892369-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.83",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 176
+    },
+    "xaud-1790390136896-buy": {
+      "id": "xaud-1790390136896-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.59",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 177
+    },
+    "xaud-1790390137614-sell": {
+      "id": "xaud-1790390137614-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.83",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 177
+    },
+    "xaud-1790390626987-buy": {
+      "id": "xaud-1790390626987-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.58",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 178
+    },
+    "xaud-1790390627807-sell": {
+      "id": "xaud-1790390627807-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.82",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 178
+    },
+    "xaud-1790390872237-buy": {
+      "id": "xaud-1790390872237-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.60",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 179
+    },
+    "xaud-1790390873261-sell": {
+      "id": "xaud-1790390873261-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.84",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 179
+    },
+    "xaud-1790391117677-buy": {
+      "id": "xaud-1790391117677-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.57",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 180
+    },
+    "xaud-1790391118721-sell": {
+      "id": "xaud-1790391118721-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.81",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 180
+    },
+    "xaud-1790391363561-buy": {
+      "id": "xaud-1790391363561-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.57",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 181
+    },
+    "xaud-1790391364583-sell": {
+      "id": "xaud-1790391364583-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.81",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 181
+    },
+    "xaud-1790391853548-buy": {
+      "id": "xaud-1790391853548-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.57",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 182
+    },
+    "xaud-1790391854677-sell": {
+      "id": "xaud-1790391854677-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.81",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 182
+    },
+    "xaud-1790392098794-buy": {
+      "id": "xaud-1790392098794-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.57",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 183
+    },
+    "xaud-1790392099825-sell": {
+      "id": "xaud-1790392099825-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.81",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 183
+    },
+    "xaud-1790392344686-buy": {
+      "id": "xaud-1790392344686-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.55",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 184
+    },
+    "xaud-1790392345598-sell": {
+      "id": "xaud-1790392345598-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.79",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 184
+    },
+    "xaud-1790392590120-buy": {
+      "id": "xaud-1790392590120-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.51",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 185
+    },
+    "xaud-1790392590985-sell": {
+      "id": "xaud-1790392590985-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.75",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 185
+    },
+    "xaud-1790392841198-buy": {
+      "id": "xaud-1790392841198-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.51",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 186
+    },
+    "xaud-1790392841807-sell": {
+      "id": "xaud-1790392841807-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.75",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 186
+    },
+    "xaud-1790393329959-buy": {
+      "id": "xaud-1790393329959-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.51",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 187
+    },
+    "xaud-1790393330984-sell": {
+      "id": "xaud-1790393330984-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.75",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 187
+    },
+    "xaud-1790393576004-buy": {
+      "id": "xaud-1790393576004-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.51",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 188
+    },
+    "xaud-1790393577244-sell": {
+      "id": "xaud-1790393577244-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.75",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 188
+    },
+    "xaud-1790393821652-buy": {
+      "id": "xaud-1790393821652-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.46",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 189
+    },
+    "xaud-1790393822579-sell": {
+      "id": "xaud-1790393822579-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.70",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 189
+    },
+    "xaud-1790394067100-buy": {
+      "id": "xaud-1790394067100-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.43",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 190
+    },
+    "xaud-1790394068225-sell": {
+      "id": "xaud-1790394068225-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.67",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 190
+    },
+    "xaud-1790394557691-buy": {
+      "id": "xaud-1790394557691-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.43",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 191
+    },
+    "xaud-1790394558394-sell": {
+      "id": "xaud-1790394558394-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.67",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 191
+    },
+    "xaud-1790394803859-buy": {
+      "id": "xaud-1790394803859-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.43",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 192
+    },
+    "xaud-1790394804780-sell": {
+      "id": "xaud-1790394804780-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.67",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 192
+    },
+    "xaud-1790395049303-buy": {
+      "id": "xaud-1790395049303-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.42",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 193
+    },
+    "xaud-1790395050542-sell": {
+      "id": "xaud-1790395050542-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.66",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 193
+    },
+    "xaud-1790395294857-buy": {
+      "id": "xaud-1790395294857-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.41",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 194
+    },
+    "xaud-1790395295992-sell": {
+      "id": "xaud-1790395295992-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.65",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 194
+    },
+    "xaud-1790395542583-buy": {
+      "id": "xaud-1790395542583-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.44",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 195
+    },
+    "xaud-1790395543525-sell": {
+      "id": "xaud-1790395543525-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.68",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 195
+    },
+    "xaud-1790396032360-buy": {
+      "id": "xaud-1790396032360-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.44",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 196
+    },
+    "xaud-1790396033081-sell": {
+      "id": "xaud-1790396033081-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.68",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 196
+    },
+    "xaud-1790396278025-buy": {
+      "id": "xaud-1790396278025-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.45",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 197
+    },
+    "xaud-1790396279083-sell": {
+      "id": "xaud-1790396279083-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.69",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 197
+    },
+    "xaud-1790396523883-buy": {
+      "id": "xaud-1790396523883-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.50",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 198
+    },
+    "xaud-1790396524914-sell": {
+      "id": "xaud-1790396524914-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.74",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 198
+    },
+    "xaud-1790396769854-buy": {
+      "id": "xaud-1790396769854-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.46",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 199
+    },
+    "xaud-1790396770554-sell": {
+      "id": "xaud-1790396770554-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.70",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 199
+    },
+    "xaud-1790397260760-buy": {
+      "id": "xaud-1790397260760-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.41",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 200
+    },
+    "xaud-1790397261463-sell": {
+      "id": "xaud-1790397261463-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.65",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 200
+    },
+    "xaud-1790397506114-buy": {
+      "id": "xaud-1790397506114-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.40",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 201
+    },
+    "xaud-1790397507160-sell": {
+      "id": "xaud-1790397507160-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.64",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 201
+    },
+    "xaud-1790397751697-buy": {
+      "id": "xaud-1790397751697-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.39",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 202
+    },
+    "xaud-1790397752388-sell": {
+      "id": "xaud-1790397752388-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.63",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 202
+    },
+    "xaud-1790397996627-buy": {
+      "id": "xaud-1790397996627-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.39",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 203
+    },
+    "xaud-1790397997754-sell": {
+      "id": "xaud-1790397997754-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.63",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 203
+    },
+    "xaud-1790398242291-buy": {
+      "id": "xaud-1790398242291-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.38",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 204
+    },
+    "xaud-1790398243016-sell": {
+      "id": "xaud-1790398243016-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.62",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 204
+    },
+    "xaud-1790398731456-buy": {
+      "id": "xaud-1790398731456-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.35",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 205
+    },
+    "xaud-1790398732493-sell": {
+      "id": "xaud-1790398732493-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.59",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 205
+    },
+    "xaud-1790398977320-buy": {
+      "id": "xaud-1790398977320-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.50",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 206
+    },
+    "xaud-1790398978349-sell": {
+      "id": "xaud-1790398978349-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.74",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 206
+    },
+    "xaud-1790399223041-buy": {
+      "id": "xaud-1790399223041-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.50",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 207
+    },
+    "xaud-1790399223928-sell": {
+      "id": "xaud-1790399223928-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.74",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 207
+    },
+    "xaud-1790399468932-buy": {
+      "id": "xaud-1790399468932-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.53",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 208
+    },
+    "xaud-1790399469819-sell": {
+      "id": "xaud-1790399469819-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.77",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 208
+    },
+    "xaud-1790399958225-buy": {
+      "id": "xaud-1790399958225-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.51",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 209
+    },
+    "xaud-1790399959120-sell": {
+      "id": "xaud-1790399959120-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.75",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 209
+    },
+    "xaud-1790457965224-buy": {
+      "id": "xaud-1790457965224-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.26",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 403
+    },
+    "xaud-1790457965944-sell": {
+      "id": "xaud-1790457965944-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.50",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 403
+    },
+    "xaud-1790458456709-buy": {
+      "id": "xaud-1790458456709-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.30",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 404
+    },
+    "xaud-1790458457425-sell": {
+      "id": "xaud-1790458457425-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.54",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 404
+    },
+    "xaud-1790458702712-buy": {
+      "id": "xaud-1790458702712-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.31",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 405
+    },
+    "xaud-1790458705505-sell": {
+      "id": "xaud-1790458705505-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.55",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 405
+    },
+    "xaud-1790458951147-buy": {
+      "id": "xaud-1790458951147-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.34",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 406
+    },
+    "xaud-1790458952703-sell": {
+      "id": "xaud-1790458952703-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.58",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 406
+    },
+    "xaud-1790459196779-buy": {
+      "id": "xaud-1790459196779-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.34",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 407
+    },
+    "xaud-1790459197624-sell": {
+      "id": "xaud-1790459197624-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.58",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 407
+    },
+    "xaud-1790459441968-buy": {
+      "id": "xaud-1790459441968-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.33",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 408
+    },
+    "xaud-1790459442690-sell": {
+      "id": "xaud-1790459442690-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.57",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 408
+    },
+    "xaud-1790459934518-buy": {
+      "id": "xaud-1790459934518-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.30",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 409
+    },
+    "xaud-1790459935338-sell": {
+      "id": "xaud-1790459935338-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.54",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 409
+    },
+    "xaud-1790460181798-buy": {
+      "id": "xaud-1790460181798-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.27",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 410
+    },
+    "xaud-1790460185082-sell": {
+      "id": "xaud-1790460185082-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.51",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 410
+    },
+    "xaud-1790460429817-buy": {
+      "id": "xaud-1790460429817-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.26",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 411
+    },
+    "xaud-1790460431754-sell": {
+      "id": "xaud-1790460431754-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.50",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 411
+    },
+    "xaud-1790460678630-buy": {
+      "id": "xaud-1790460678630-buy",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "223.31",
+      "qty": "0.10",
+      "side": "buy",
+      "taker": "any",
+      "until": 412
+    },
+    "xaud-1790460681259-sell": {
+      "id": "xaud-1790460681259-sell",
+      "maker": "did:key:z6Mkg59iL4k3hPUAGFKzEM9EQRxFLtn5W18q2XcuiVPz4mBQ",
+      "px": "225.55",
+      "qty": "0.10",
+      "side": "sell",
+      "taker": "any",
+      "until": 412
+    }
+  },
+  "trades": {
+    "4f3e": {
+      "seq": 199747,
+      "sweep": 19
+    },
+    "8066": {
+      "seq": 315106,
+      "sweep": 23
+    },
+    "0a31": {
+      "seq": 315121,
+      "sweep": 23
+    },
+    "fc45": {
+      "seq": 315139,
+      "sweep": 23
+    },
+    "t_xf3pmi8b": {
+      "seq": 375108,
+      "sweep": 24
+    },
+    "tp22-1790346302620229690": {
+      "seq": 375151,
+      "sweep": 24
+    },
+    "t_e78825u5": {
+      "seq": 400613,
+      "sweep": 28
+    },
+    "tw970e754945f8": {
+      "seq": 1022954,
+      "sweep": 107
+    },
+    "k2ye-9acf12a221b7": {
+      "seq": 1022983,
+      "sweep": 107
+    },
+    "main-l1": {
+      "seq": 1023019,
+      "sweep": 107
+    },
+    "01a0da5ca80b": {
+      "seq": 1023036,
+      "sweep": 107
+    },
+    "7557950f704d31ea": {
+      "seq": 1023149,
+      "sweep": 107
+    },
+    "de98c6f0c65f5005": {
+      "seq": 1023153,
+      "sweep": 107
+    },
+    "1673c31ab821dfa8": {
+      "seq": 1023200,
+      "sweep": 107
+    },
+    "d833e2ea45994232": {
+      "seq": 1023203,
+      "sweep": 107
+    },
+    "911e146b4b667a3a": {
+      "seq": 1023300,
+      "sweep": 108
+    },
+    "edcb8f529004f621": {
+      "seq": 1023303,
+      "sweep": 108
+    },
+    "42f5f8de43a95557": {
+      "seq": 1023306,
+      "sweep": 108
+    },
+    "tw9dd121f3ebeb": {
+      "seq": 1023322,
+      "sweep": 108
+    },
+    "msecd256b599": {
+      "seq": 1023325,
+      "sweep": 108
+    },
+    "ms95c11d0693": {
+      "seq": 1023328,
+      "sweep": 108
+    },
+    "ms16000feab7": {
+      "seq": 1023334,
+      "sweep": 108
+    },
+    "msd87162492c": {
+      "seq": 1023337,
+      "sweep": 108
+    },
+    "f98aaddc402a8918": {
+      "seq": 1023359,
+      "sweep": 108
+    },
+    "7ff9cab02fc1447e": {
+      "seq": 1023363,
+      "sweep": 108
+    },
+    "7d352151fe312241": {
+      "seq": 1023367,
+      "sweep": 108
+    },
+    "c12301acae3e3e9d": {
+      "seq": 1023408,
+      "sweep": 108
+    },
+    "04fa3b97c8df496e": {
+      "seq": 1023414,
+      "sweep": 108
+    },
+    "bb0e812563280964": {
+      "seq": 1023417,
+      "sweep": 108
+    },
+    "twa94ac38daebc": {
+      "seq": 1023440,
+      "sweep": 108
+    },
+    "tw3d3e78936123": {
+      "seq": 1023523,
+      "sweep": 108,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "tw1b2a54021c6b": {
+      "seq": 1023607,
+      "sweep": 108,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "tw7206ba7d866b": {
+      "seq": 1024060,
+      "sweep": 109,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "ms9f776f6091": {
+      "seq": 1024230,
+      "sweep": 109,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "twf0a25f52829c": {
+      "seq": 1024301,
+      "sweep": 109,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "twf0d3ea3dc016": {
+      "seq": 1024387,
+      "sweep": 109,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "k1790370643393566": {
+      "seq": 1024714,
+      "sweep": 110,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790370644123105": {
+      "seq": 1024716,
+      "sweep": 110,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "k1790371867946380": {
+      "seq": 1027696,
+      "sweep": 114,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790371868648244": {
+      "seq": 1027699,
+      "sweep": 114,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "k1790372148663512": {
+      "seq": 1028328,
+      "sweep": 115,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790372149201486": {
+      "seq": 1028330,
+      "sweep": 115,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "k1790373352957180": {
+      "seq": 1031047,
+      "sweep": 119,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790373353482495": {
+      "seq": 1031049,
+      "sweep": 119,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "cc10002374886745": {
+      "seq": 1037229,
+      "sweep": 124,
+      "own_side": "sell",
+      "qty": 2.0
+    },
+    "ms6231389d3a": {
+      "seq": 1037233,
+      "sweep": 124,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "ms16f2ea000e": {
+      "seq": 1037237,
+      "sweep": 124,
+      "own_side": "buy",
+      "qty": 0.75
+    },
+    "ms3cefa2802c": {
+      "seq": 1037248,
+      "sweep": 124,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "twd8ac6bd309ba": {
+      "seq": 1038564,
+      "sweep": 125,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "tw2065c968a3b1": {
+      "seq": 1041759,
+      "sweep": 127,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "k1790376362705395": {
+      "seq": 1044333,
+      "sweep": 129,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790376363225385": {
+      "seq": 1044336,
+      "sweep": 129,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "k1790379526414994": {
+      "seq": 1054857,
+      "sweep": 139,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790379526952928": {
+      "seq": 1054860,
+      "sweep": 139,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "k1790380001431788": {
+      "seq": 1056713,
+      "sweep": 141,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790380001964750": {
+      "seq": 1056714,
+      "sweep": 141,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "k1790380040698790": {
+      "seq": 1056805,
+      "sweep": 141,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790380041214327": {
+      "seq": 1056807,
+      "sweep": 141,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "k1790384426863867": {
+      "seq": 1116288,
+      "sweep": 156,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790384427428153": {
+      "seq": 1116290,
+      "sweep": 156,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "ad50326f98f38d38": {
+      "seq": 1127354,
+      "sweep": 161,
+      "own_side": "sell",
+      "qty": 1.0
+    },
+    "f020add2ff6f387d": {
+      "seq": 1127358,
+      "sweep": 161,
+      "own_side": "buy",
+      "qty": 1.0
+    },
+    "tzo-1790388386743-b1": {
+      "seq": 1155769,
+      "sweep": 169,
+      "own_side": "sell",
+      "qty": 1.0
+    },
+    "msb6b3138dc5": {
+      "seq": 1155771,
+      "sweep": 169,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "ms098abf2ff6": {
+      "seq": 1155777,
+      "sweep": 169,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "ms9645243f05": {
+      "seq": 1155783,
+      "sweep": 169,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "ms68b0a5d4a5": {
+      "seq": 1159307,
+      "sweep": 170,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "ms360a4c2c8c": {
+      "seq": 1159311,
+      "sweep": 170,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "mseefa8e50f8": {
+      "seq": 1159318,
+      "sweep": 170,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "ms03bc3a9303": {
+      "seq": 1159324,
+      "sweep": 170,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "ms62c65140c5": {
+      "seq": 1165584,
+      "sweep": 171,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "msd4da60b250": {
+      "seq": 1165615,
+      "sweep": 171,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "twb46e32e6f6b2": {
+      "seq": 1175418,
+      "sweep": 174,
+      "own_side": "buy",
+      "qty": 0.1
+    },
+    "k1790392829392886": {
+      "seq": 1223338,
+      "sweep": 184,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790392829905512": {
+      "seq": 1223350,
+      "sweep": 184,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "tzo-1790394306467-b": {
+      "seq": 1245754,
+      "sweep": 188,
+      "own_side": "sell",
+      "qty": 1.5
+    },
+    "tzo-1790394306467-s": {
+      "seq": 1245763,
+      "sweep": 188,
+      "own_side": "buy",
+      "qty": 1.5
+    },
+    "k1790395521738904": {
+      "seq": 1263765,
+      "sweep": 193,
+      "own_side": "sell",
+      "qty": 0.5
+    },
+    "k1790395521953365": {
+      "seq": 1263769,
+      "sweep": 193,
+      "own_side": "buy",
+      "qty": 0.5
+    },
+    "3d4b85b2322e9400": {
+      "seq": 3085895,
+      "sweep": 402,
+      "own_side": "sell",
+      "qty": 0.96
+    },
+    "1f819ec5e2c300a7": {
+      "seq": 3179840,
+      "sweep": 406,
+      "own_side": "sell",
+      "qty": 0.63
+    },
+    "b5a0050a68ac94db": {
+      "seq": 3186778,
+      "sweep": 407,
+      "own_side": "buy",
+      "qty": 1.29
+    },
+    "be3d8aa22252216d": {
+      "seq": 3207652,
+      "sweep": 410,
+      "own_side": "sell",
+      "qty": 0.97
+    },
+    "afc37258cb281eb1": {
+      "seq": 3207667,
+      "sweep": 410,
+      "own_side": "buy",
+      "qty": 0.3
+    },
+    "scan-1790622794": {
+      "seq": 6539574,
+      "sweep": 950,
+      "own_side": "sell",
+      "qty": 0.01
+    },
+    "scan-1790623095": {
+      "seq": 6546835,
+      "sweep": 951,
+      "own_side": "sell",
+      "qty": 0.01
+    },
+    "scan-1790626134": {
+      "seq": 6601895,
+      "sweep": 961,
+      "own_side": "sell",
+      "qty": 0.01
+    }
+  },
+  "registered": true,
+  "seen_trades": {
+    "tw970e754945f8": {
+      "seq": 1023097,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "k2ye-9acf12a221b7": {
+      "seq": 1023101,
+      "side": "sell",
+      "qty": 8.6
+    },
+    "main-l1": {
+      "seq": 1023104,
+      "side": "sell",
+      "qty": 43.9
+    },
+    "01a0da5ca80b": {
+      "seq": 1023108,
+      "side": "sell",
+      "qty": 43.99
+    },
+    "xaud-1790369946733-buy": {
+      "seq": 1023117,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790369947629-sell": {
+      "seq": 1023125,
+      "side": "sell",
+      "qty": 0.1
+    },
+    "xaud-1790369957068-buy": {
+      "seq": 1023145,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "7557950f704d31ea": {
+      "seq": 1023166,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "de98c6f0c65f5005": {
+      "seq": 1023168,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "xaud-1790369967719-buy": {
+      "seq": 1023174,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790369977118-buy": {
+      "seq": 1023193,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "1673c31ab821dfa8": {
+      "seq": 1023209,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "d833e2ea45994232": {
+      "seq": 1023212,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "xaud-1790369987783-buy": {
+      "seq": 1023215,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790369997007-buy": {
+      "seq": 1023228,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790370005706-buy": {
+      "seq": 1023256,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790370015553-buy": {
+      "seq": 1023284,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "911e146b4b667a3a": {
+      "seq": 1023309,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "edcb8f529004f621": {
+      "seq": 1023312,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "xaud-1790370026393-buy": {
+      "seq": 1023315,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "42f5f8de43a95557": {
+      "seq": 1023341,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "tw9dd121f3ebeb": {
+      "seq": 1023344,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "msecd256b599": {
+      "seq": 1023345,
+      "side": "buy",
+      "qty": 0.5
+    },
+    "ms95c11d0693": {
+      "seq": 1023348,
+      "side": "buy",
+      "qty": 0.5
+    },
+    "ms16000feab7": {
+      "seq": 1023349,
+      "side": "buy",
+      "qty": 0.75
+    },
+    "xaud-1790370038270-buy": {
+      "seq": 1023354,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "msd87162492c": {
+      "seq": 1023378,
+      "side": "buy",
+      "qty": 0.5
+    },
+    "f98aaddc402a8918": {
+      "seq": 1023381,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "7ff9cab02fc1447e": {
+      "seq": 1023384,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "7d352151fe312241": {
+      "seq": 1023387,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "xaud-1790370052203-buy": {
+      "seq": 1023392,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790370061308-buy": {
+      "seq": 1023413,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "c12301acae3e3e9d": {
+      "seq": 1023431,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "04fa3b97c8df496e": {
+      "seq": 1023434,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "bb0e812563280964": {
+      "seq": 1023437,
+      "side": "buy",
+      "qty": 3.0
+    },
+    "xaud-1790370074526-buy": {
+      "seq": 1023447,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "twa94ac38daebc": {
+      "seq": 1023466,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790370084259-buy": {
+      "seq": 1023471,
+      "side": "buy",
+      "qty": 0.1
+    },
+    "xaud-1790370093061-buy": {
+      "seq": 1023490,
+      "side": "buy",
+      "qty": 0.1
+    }
+  },
+  "position": 0.0,
+  "pending_position": -0.05,
+  "risk_model": 2,
+  "last_quote_sweep": 1256,
+  "unreconciled_probe_gross_qty": 0.03
+}
