@@ -21,6 +21,7 @@ BASE = os.environ.get("TECHNOCORE_URL", "https://technocore.chat")
 SEASON = "close-1"
 TRADING_ROOM = "close1"
 PRICE_ROOM = "d-close1-price"
+POSITIONS_ROOM = "d-close1-positions"
 STATE_FILE = Path(os.environ.get("CLOSE_CALL_STATE", "close_call_state.json"))
 DID_RE = re.compile(r"^did:key:z6Mk[1-9A-HJ-NP-Za-km-z]{44}$")
 BASE_FEE_RATE = 0.01
@@ -169,6 +170,27 @@ def post_signed(key: Ed25519PrivateKey, did: str, state: dict, text: str, dry_ru
             print(f"network post failed ({error}); retrying in {delay}s", flush=True)
             time.sleep(delay)
     save_state(state)
+
+
+def referee_position(did: str) -> float | None:
+    """Position from the latest referee top-10, or None if this DID is not listed."""
+    body = get_json(f"/r/{POSITIONS_ROOM}?format=json&since=0&limit=5")
+    messages = body.get("messages") or []
+    if not messages:
+        return None
+    try:
+        payload = json.loads(messages[-1]["text"])
+    except (KeyError, TypeError, json.JSONDecodeError):
+        return None
+    if payload.get("t") != "positions":
+        return None
+    for row in payload.get("top") or []:
+        if isinstance(row, (list, tuple)) and len(row) >= 2 and row[0] == did:
+            try:
+                return float(row[1])
+            except (TypeError, ValueError):
+                return None
+    return None
 
 
 def latest_price() -> tuple[int, float, float, float]:
@@ -357,14 +379,23 @@ def main() -> None:
         else:
             baseline_position = os.environ.get("CLOSE_CALL_BASELINE_POSITION")
             baseline_cash = os.environ.get("CLOSE_CALL_BASELINE_FREE_POLF")
-            if baseline_position is None or baseline_cash is None:
-                raise SystemExit("live trading blocked: set reconciled CLOSE_CALL_BASELINE_POSITION and CLOSE_CALL_BASELINE_FREE_POLF")
-            baseline_key = f"{float(baseline_position):.4f}:{float(baseline_cash):.2f}"
-            if state.get("reconciled_baseline_key") != baseline_key:
-                state["position"] = float(baseline_position)
-                state["pending_position"] = 0.0
+            if baseline_position is not None:
+                position = float(baseline_position)
+                source = "env"
+            else:
+                looked_up = referee_position(did)
+                if looked_up is not None:
+                    position = looked_up
+                    source = "referee"
+                else:
+                    position = float(state.get("position") or 0.0)
+                    source = "local"
+            state["position"] = position
+            state["pending_position"] = 0.0
+            if baseline_cash is not None:
                 state["free_polf"] = float(baseline_cash)
-                state["reconciled_baseline_key"] = baseline_key
+            state["reconciled_baseline_key"] = f"{position:.4f}:{source}"
+            print(f"live position {position:.2f} from {source}", flush=True)
     else:
         unreconciled_probe = False
         # Dry-run calculations must never mutate authoritative local trading state.
