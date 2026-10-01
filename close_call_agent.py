@@ -22,6 +22,7 @@ SEASON = "close-1"
 TRADING_ROOM = "close1"
 PRICE_ROOM = "d-close1-price"
 POSITIONS_ROOM = "d-close1-positions"
+FLOW_ROOM = "d-close1-flow"
 STATE_FILE = Path(os.environ.get("CLOSE_CALL_STATE", "close_call_state.json"))
 DID_RE = re.compile(r"^did:key:z6Mk[1-9A-HJ-NP-Za-km-z]{44}$")
 BASE_FEE_RATE = 0.01
@@ -193,6 +194,90 @@ def referee_position(did: str) -> float | None:
     return None
 
 
+def flow_outcomes() -> tuple[int, set[str], dict[str, str]]:
+    """Latest flow page. Settled entries are trade ids. Void entries are [id, reason]."""
+    body = get_json(f"/r/{FLOW_ROOM}?format=json&since=0&limit=50")
+    settled: set[str] = set()
+    void: dict[str, str] = {}
+    oldest = 0
+    for message in body.get("messages") or []:
+        try:
+            payload = json.loads(message["text"])
+        except (KeyError, TypeError, json.JSONDecodeError):
+            continue
+        if payload.get("t") != "flow":
+            continue
+        try:
+            sweep_n = int(payload.get("n") or 0)
+        except (TypeError, ValueError):
+            sweep_n = 0
+        if sweep_n and (not oldest or sweep_n < oldest):
+            oldest = sweep_n
+        for item in payload.get("settled") or []:
+            if isinstance(item, str):
+                settled.add(item)
+        for item in payload.get("void") or []:
+            if isinstance(item, (list, tuple)) and len(item) >= 2 and isinstance(item[0], str):
+                void[str(item[0])] = str(item[1])
+    return oldest, settled, void
+
+
+def apply_flow(state: dict, oldest_flow_sweep: int, settled: set[str], void: dict[str, str]) -> bool:
+    """Apply settled and void. Return True while a reserved take is still inside the visible flow."""
+    waiting = False
+    position = float(state.get("position") or 0.0)
+    pending = float(state.get("pending_position") or 0.0)
+    for trade_id, trade in state.get("trades", {}).items():
+        if not isinstance(trade, dict):
+            continue
+        status = trade.get("status")
+        if status in ("settled", "void", "unseen"):
+            continue
+        qty = float(trade.get("qty") or 0.0)
+        delta = qty if trade.get("own_side") == "buy" else -qty
+        reserved = bool(trade.get("reserved"))
+        if trade_id in settled:
+            trade["status"] = "settled"
+            trade["reserved"] = False
+            if reserved:
+                position = round(position + delta, 2)
+                pending = round(pending - delta, 2)
+            print(f"settled {trade_id} {trade.get('own_side')} qty={qty:.2f}", flush=True)
+        elif trade_id in void:
+            trade["status"] = "void"
+            trade["void_reason"] = void[trade_id]
+            trade["reserved"] = False
+            if reserved:
+                pending = round(pending - delta, 2)
+            print(f"void {trade_id} reason={void[trade_id]}", flush=True)
+        elif oldest_flow_sweep and int(trade.get("sweep") or 0) and int(trade["sweep"]) < oldest_flow_sweep:
+            trade["status"] = "unseen"
+            trade["reserved"] = False
+            if reserved:
+                pending = round(pending - delta, 2)
+            print(
+                f"unseen {trade_id} sweep={trade.get('sweep')} left the flow without settled or void",
+                flush=True,
+            )
+        else:
+            waiting = True
+            print(f"waiting {trade_id} {trade.get('own_side')} qty={qty:.2f} sweep={trade.get('sweep')}", flush=True)
+    state["position"] = round(position, 2)
+    state["pending_position"] = round(pending, 2)
+    return waiting
+
+
+def order_cap(state: dict) -> float:
+    """One contract until the referee has settled one of ours. Then the normal cap."""
+    proved = any(
+        isinstance(trade, dict) and trade.get("status") == "settled"
+        for trade in state.get("trades", {}).values()
+    )
+    if proved:
+        return max_trade_qty()
+    return min(1.0, max_trade_qty())
+
+
 def latest_price() -> tuple[int, float, float, float]:
     body = get_json(f"/r/{PRICE_ROOM}?format=json&since=0&limit=20")
     messages = body.get("messages", [])
@@ -255,6 +340,7 @@ def accept_offers(
     reference: float,
     forecast: float | None,
     unreconciled_probe: bool,
+    cap: float,
     dry_run: bool,
 ) -> None:
     if forecast is None:
@@ -278,7 +364,7 @@ def accept_offers(
             qty = float(terms["qty"])
         except (KeyError, TypeError, ValueError):
             continue
-        if qty <= 0 or qty > max_trade_qty():
+        if qty <= 0 or qty > cap:
             continue
         price = float(terms.get("px", 0))
         if price <= 0:
@@ -290,7 +376,7 @@ def accept_offers(
         if unreconciled_probe:
             # No reliable old baseline exists. Permit at most one tiny
             # additional counter-sign in gross size, never make offers.
-            if state.get("unreconciled_probe_gross_qty", 0.0) + qty > max_trade_qty():
+            if state.get("unreconciled_probe_gross_qty", 0.0) + qty > cap:
                 continue
         else:
             projected = (
@@ -323,6 +409,8 @@ def accept_offers(
             "sweep": sweep,
             "own_side": "sell" if side == "buy" else "buy",
             "qty": qty,
+            "status": "pending",
+            "reserved": not dry_run,
         }
         state["pending_position"] = round(
             state.get("pending_position", 0.0) + own_delta, 2
@@ -337,6 +425,7 @@ def accept_offers(
             f"forecast_edge_after_stress={edge_after_stress:.4f}",
             flush=True,
         )
+        return
 
 
 def main() -> None:
@@ -391,11 +480,11 @@ def main() -> None:
                     position = float(state.get("position") or 0.0)
                     source = "local"
             state["position"] = position
-            state["pending_position"] = 0.0
             if baseline_cash is not None:
                 state["free_polf"] = float(baseline_cash)
             state["reconciled_baseline_key"] = f"{position:.4f}:{source}"
-            print(f"live position {position:.2f} from {source}", flush=True)
+            pending = float(state.get("pending_position") or 0.0)
+            print(f"live position {position:.2f} pending {pending:.2f} from {source}", flush=True)
     else:
         unreconciled_probe = False
         # Dry-run calculations must never mutate authoritative local trading state.
@@ -420,22 +509,39 @@ def main() -> None:
         print(f"registered {did}")
 
     sweep, reference, lower, upper = latest_price()
+    oldest_flow, settled_ids, void_ids = flow_outcomes()
+    waiting = apply_flow(state, oldest_flow, settled_ids, void_ids)
     if forecast is None:
         print("no final-price forecast configured; observing only, no offers accepted or quoted", flush=True)
         print(f"sweep={sweep} reference={reference:.2f} band={lower:.2f}..{upper:.2f}", flush=True)
+        if live:
+            save_state(state)
         return
 
-    accept_offers(
-        key, did, state, body.get("messages", []), sweep, reference,
-        forecast, unreconciled_probe, dry_run
+    cap = order_cap(state)
+    if waiting:
+        print("waiting on the referee for an open take; no new offer or quote", flush=True)
+    else:
+        accept_offers(
+            key, did, state, body.get("messages", []), sweep, reference,
+            forecast, unreconciled_probe, cap, dry_run,
+        )
+    open_take = any(
+        isinstance(trade, dict) and trade.get("status") == "pending" and trade.get("reserved")
+        for trade in state.get("trades", {}).values()
     )
     # Quote the reference on the forecast side only, once per sweep.
     quote = round(reference, 2)
     position = round(state.get("position", 0.0) + state.get("pending_position", 0.0), 2)
     max_pos = max_position()
-    qty = min(max_trade_qty(), max(0.0, max_pos - abs(position)))
+    qty = min(cap, max(0.0, max_pos - abs(position)))
     qty = float(f"{qty:.2f}")
-    can_quote = (not unreconciled_probe or allow_unreconciled_live) and state.get("last_quote_sweep") != sweep
+    can_quote = (
+        not waiting
+        and not open_take
+        and (not unreconciled_probe or allow_unreconciled_live)
+        and state.get("last_quote_sweep") != sweep
+    )
     if can_quote and qty >= 0.1:
         if forecast > reference and position + qty <= max_pos:
             make_offer(key, did, state, quote, "buy", qty, sweep + 2, dry_run)
