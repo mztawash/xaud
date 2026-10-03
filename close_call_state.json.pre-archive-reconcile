@@ -4839,9 +4839,8 @@
     "4f3e": {
       "seq": 199747,
       "sweep": 19,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 21
+      "status": "unseen",
+      "reserved": false
     },
     "8066": {
       "seq": 315106,
@@ -4864,3388 +4863,1110 @@
     "t_xf3pmi8b": {
       "seq": 375108,
       "sweep": 24,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 30
+      "status": "unseen",
+      "reserved": false
     },
     "tp22-1790346302620229690": {
       "seq": 375151,
       "sweep": 24,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 30
+      "status": "unseen",
+      "reserved": false
     },
     "t_e78825u5": {
       "seq": 400613,
       "sweep": 28,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 31
+      "status": "unseen",
+      "reserved": false
     },
     "tw970e754945f8": {
       "seq": 1022954,
       "sweep": 107,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "k2ye-9acf12a221b7": {
       "seq": 1022983,
       "sweep": 107,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "main-l1": {
       "seq": 1023019,
       "sweep": 107,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "01a0da5ca80b": {
       "seq": 1023036,
       "sweep": 107,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "7557950f704d31ea": {
       "seq": 1023149,
       "sweep": 107,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "de98c6f0c65f5005": {
       "seq": 1023153,
       "sweep": 107,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "1673c31ab821dfa8": {
       "seq": 1023200,
       "sweep": 107,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "d833e2ea45994232": {
       "seq": 1023203,
       "sweep": 107,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 108
+      "status": "unseen",
+      "reserved": false
     },
     "911e146b4b667a3a": {
       "seq": 1023300,
       "sweep": 108,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "edcb8f529004f621": {
       "seq": 1023303,
       "sweep": 108,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "42f5f8de43a95557": {
       "seq": 1023306,
       "sweep": 108,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "tw9dd121f3ebeb": {
       "seq": 1023322,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "msecd256b599": {
       "seq": 1023325,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "ms95c11d0693": {
       "seq": 1023328,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "ms16000feab7": {
       "seq": 1023334,
       "sweep": 108,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "msd87162492c": {
       "seq": 1023337,
       "sweep": 108,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "f98aaddc402a8918": {
       "seq": 1023359,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "7ff9cab02fc1447e": {
       "seq": 1023363,
       "sweep": 108,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "7d352151fe312241": {
       "seq": 1023367,
       "sweep": 108,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "c12301acae3e3e9d": {
       "seq": 1023408,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "04fa3b97c8df496e": {
       "seq": 1023414,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "bb0e812563280964": {
       "seq": 1023417,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "twa94ac38daebc": {
       "seq": 1023440,
       "sweep": 108,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "tw3d3e78936123": {
       "seq": 1023523,
       "sweep": 108,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "tw1b2a54021c6b": {
       "seq": 1023607,
       "sweep": 108,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 109
+      "status": "unseen",
+      "reserved": false
     },
     "tw7206ba7d866b": {
       "seq": 1024060,
       "sweep": 109,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 110
+      "status": "unseen",
+      "reserved": false
     },
     "ms9f776f6091": {
       "seq": 1024230,
       "sweep": 109,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 110
+      "status": "unseen",
+      "reserved": false
     },
     "twf0a25f52829c": {
       "seq": 1024301,
       "sweep": 109,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 110
+      "status": "unseen",
+      "reserved": false
     },
     "twf0d3ea3dc016": {
       "seq": 1024387,
       "sweep": 109,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 110
+      "status": "unseen",
+      "reserved": false
     },
     "k1790370643393566": {
       "seq": 1024714,
       "sweep": 110,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 111
+      "status": "unseen",
+      "reserved": false
     },
     "k1790370644123105": {
       "seq": 1024716,
       "sweep": 110,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 111
+      "status": "unseen",
+      "reserved": false
     },
     "k1790371867946380": {
       "seq": 1027696,
       "sweep": 114,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 115
+      "status": "unseen",
+      "reserved": false
     },
     "k1790371868648244": {
       "seq": 1027699,
       "sweep": 114,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 115
+      "status": "unseen",
+      "reserved": false
     },
     "k1790372148663512": {
       "seq": 1028328,
       "sweep": 115,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 116
+      "status": "unseen",
+      "reserved": false
     },
     "k1790372149201486": {
       "seq": 1028330,
       "sweep": 115,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 116
+      "status": "unseen",
+      "reserved": false
     },
     "k1790373352957180": {
       "seq": 1031047,
       "sweep": 119,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 120
+      "status": "unseen",
+      "reserved": false
     },
     "k1790373353482495": {
       "seq": 1031049,
       "sweep": 119,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 120
+      "status": "unseen",
+      "reserved": false
     },
     "cc10002374886745": {
       "seq": 1037229,
       "sweep": 124,
       "own_side": "sell",
       "qty": 2.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 125
+      "status": "unseen",
+      "reserved": false
     },
     "ms6231389d3a": {
       "seq": 1037233,
       "sweep": 124,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 125
+      "status": "unseen",
+      "reserved": false
     },
     "ms16f2ea000e": {
       "seq": 1037237,
       "sweep": 124,
       "own_side": "buy",
       "qty": 0.75,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 125
+      "status": "unseen",
+      "reserved": false
     },
     "ms3cefa2802c": {
       "seq": 1037248,
       "sweep": 124,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 125
+      "status": "unseen",
+      "reserved": false
     },
     "twd8ac6bd309ba": {
       "seq": 1038564,
       "sweep": 125,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 126
+      "status": "unseen",
+      "reserved": false
     },
     "tw2065c968a3b1": {
       "seq": 1041759,
       "sweep": 127,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 128
+      "status": "unseen",
+      "reserved": false
     },
     "k1790376362705395": {
       "seq": 1044333,
       "sweep": 129,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 130
+      "status": "unseen",
+      "reserved": false
     },
     "k1790376363225385": {
       "seq": 1044336,
       "sweep": 129,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 130
+      "status": "unseen",
+      "reserved": false
     },
     "k1790379526414994": {
       "seq": 1054857,
       "sweep": 139,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 140
+      "status": "unseen",
+      "reserved": false
     },
     "k1790379526952928": {
       "seq": 1054860,
       "sweep": 139,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 140
+      "status": "unseen",
+      "reserved": false
     },
     "k1790380001431788": {
       "seq": 1056713,
       "sweep": 141,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 142
+      "status": "unseen",
+      "reserved": false
     },
     "k1790380001964750": {
       "seq": 1056714,
       "sweep": 141,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 142
+      "status": "unseen",
+      "reserved": false
     },
     "k1790380040698790": {
       "seq": 1056805,
       "sweep": 141,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 142
+      "status": "unseen",
+      "reserved": false
     },
     "k1790380041214327": {
       "seq": 1056807,
       "sweep": 141,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 142
+      "status": "unseen",
+      "reserved": false
     },
     "k1790384426863867": {
       "seq": 1116288,
       "sweep": 156,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 157
+      "status": "unseen",
+      "reserved": false
     },
     "k1790384427428153": {
       "seq": 1116290,
       "sweep": 156,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 157
+      "status": "unseen",
+      "reserved": false
     },
     "ad50326f98f38d38": {
       "seq": 1127354,
       "sweep": 161,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 162
+      "status": "unseen",
+      "reserved": false
     },
     "f020add2ff6f387d": {
       "seq": 1127358,
       "sweep": 161,
       "own_side": "buy",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 162
+      "status": "unseen",
+      "reserved": false
     },
     "tzo-1790388386743-b1": {
       "seq": 1155769,
       "sweep": 169,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 170
+      "status": "unseen",
+      "reserved": false
     },
     "msb6b3138dc5": {
       "seq": 1155771,
       "sweep": 169,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 170
+      "status": "unseen",
+      "reserved": false
     },
     "ms098abf2ff6": {
       "seq": 1155777,
       "sweep": 169,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 170
+      "status": "unseen",
+      "reserved": false
     },
     "ms9645243f05": {
       "seq": 1155783,
       "sweep": 169,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 170
+      "status": "unseen",
+      "reserved": false
     },
     "ms68b0a5d4a5": {
       "seq": 1159307,
       "sweep": 170,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 171
+      "status": "unseen",
+      "reserved": false
     },
     "ms360a4c2c8c": {
       "seq": 1159311,
       "sweep": 170,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 171
+      "status": "unseen",
+      "reserved": false
     },
     "mseefa8e50f8": {
       "seq": 1159318,
       "sweep": 170,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 171
+      "status": "unseen",
+      "reserved": false
     },
     "ms03bc3a9303": {
       "seq": 1159324,
       "sweep": 170,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 171
+      "status": "unseen",
+      "reserved": false
     },
     "ms62c65140c5": {
       "seq": 1165584,
       "sweep": 171,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 172
+      "status": "unseen",
+      "reserved": false
     },
     "msd4da60b250": {
       "seq": 1165615,
       "sweep": 171,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 172
+      "status": "unseen",
+      "reserved": false
     },
     "twb46e32e6f6b2": {
       "seq": 1175418,
       "sweep": 174,
       "own_side": "buy",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 175
+      "status": "unseen",
+      "reserved": false
     },
     "k1790392829392886": {
       "seq": 1223338,
       "sweep": 184,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 185
+      "status": "unseen",
+      "reserved": false
     },
     "k1790392829905512": {
       "seq": 1223350,
       "sweep": 184,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 185
+      "status": "unseen",
+      "reserved": false
     },
     "tzo-1790394306467-b": {
       "seq": 1245754,
       "sweep": 188,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 190
+      "status": "unseen",
+      "reserved": false
     },
     "tzo-1790394306467-s": {
       "seq": 1245763,
       "sweep": 188,
       "own_side": "buy",
       "qty": 1.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 190
+      "status": "unseen",
+      "reserved": false
     },
     "k1790395521738904": {
       "seq": 1263765,
       "sweep": 193,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 194
+      "status": "unseen",
+      "reserved": false
     },
     "k1790395521953365": {
       "seq": 1263769,
       "sweep": 193,
       "own_side": "buy",
       "qty": 0.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 194
+      "status": "unseen",
+      "reserved": false
     },
     "3d4b85b2322e9400": {
       "seq": 3085895,
       "sweep": 402,
       "own_side": "sell",
       "qty": 0.96,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 403
+      "status": "unseen",
+      "reserved": false
     },
     "1f819ec5e2c300a7": {
       "seq": 3179840,
       "sweep": 406,
       "own_side": "sell",
       "qty": 0.63,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 407
+      "status": "unseen",
+      "reserved": false
     },
     "b5a0050a68ac94db": {
       "seq": 3186778,
       "sweep": 407,
       "own_side": "buy",
       "qty": 1.29,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 408
+      "status": "unseen",
+      "reserved": false
     },
     "be3d8aa22252216d": {
       "seq": 3207652,
       "sweep": 410,
       "own_side": "sell",
       "qty": 0.97,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 411
+      "status": "unseen",
+      "reserved": false
     },
     "afc37258cb281eb1": {
       "seq": 3207667,
       "sweep": 410,
       "own_side": "buy",
       "qty": 0.3,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 411
+      "status": "unseen",
+      "reserved": false
     },
     "scan-1790622794": {
       "seq": 6539574,
       "sweep": 950,
       "own_side": "sell",
       "qty": 0.01,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 951
+      "status": "unseen",
+      "reserved": false
     },
     "scan-1790623095": {
       "seq": 6546835,
       "sweep": 951,
       "own_side": "sell",
       "qty": 0.01,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 952
+      "status": "unseen",
+      "reserved": false
     },
     "scan-1790626134": {
       "seq": 6601895,
       "sweep": 961,
       "own_side": "sell",
       "qty": 0.01,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 963
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1279-0b-67c7": {
       "seq": 10516203,
       "sweep": 1279,
       "own_side": "sell",
       "qty": 3.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1280
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1279-1b-47db": {
       "seq": 10516258,
       "sweep": 1279,
       "own_side": "sell",
       "qty": 3.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1280
+      "status": "unseen",
+      "reserved": false
     },
     "920a37bf3660e553": {
       "seq": 10604767,
       "sweep": 1285,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1286
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1286-0b-d5d5": {
       "seq": 10616814,
       "sweep": 1286,
       "own_side": "sell",
       "qty": 3.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1287
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1286-1b-f0e2": {
       "seq": 10616830,
       "sweep": 1286,
       "own_side": "sell",
       "qty": 3.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1287
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1286-2b-9fe9": {
       "seq": 10616854,
       "sweep": 1286,
       "own_side": "sell",
       "qty": 3.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1287
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1286-3b-b57a": {
       "seq": 10616869,
       "sweep": 1286,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1287
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1286-4b-55f0": {
       "seq": 10616882,
       "sweep": 1286,
       "own_side": "sell",
       "qty": 2.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1287
+      "status": "unseen",
+      "reserved": false
     },
     "3a476f9dd7feb422": {
       "seq": 10784907,
       "sweep": 1296,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1297
+      "status": "unseen",
+      "reserved": false
     },
     "13f3737c98ef": {
       "seq": 11091899,
       "sweep": 1312,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1314
+      "status": "unseen",
+      "reserved": false
     },
     "b109581db497": {
       "seq": 11317911,
       "sweep": 1324,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1325
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1331-0b-f7f1": {
       "seq": 11466115,
       "sweep": 1331,
       "own_side": "sell",
       "qty": 3.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1332
+      "status": "unseen",
+      "reserved": false
     },
     "scalp-3e06e0-1331-1b-84c0": {
       "seq": 11466188,
       "sweep": 1331,
       "own_side": "sell",
       "qty": 3.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1332
+      "status": "unseen",
+      "reserved": false
     },
     "ialbcd06dc3d5": {
       "seq": 11629203,
       "sweep": 1339,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1340
+      "status": "unseen",
+      "reserved": false
     },
     "ial13945673d0": {
       "seq": 11629232,
       "sweep": 1339,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1340
+      "status": "unseen",
+      "reserved": false
     },
     "ialebb1e082fa": {
       "seq": 11629255,
       "sweep": 1339,
       "own_side": "sell",
       "qty": 4.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1340
+      "status": "unseen",
+      "reserved": false
     },
     "025e68fa": {
       "seq": 11777967,
       "sweep": 1346,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1347
+      "status": "unseen",
+      "reserved": false
     },
     "ilm-munlvkuq-21f15d": {
       "seq": 11840134,
       "sweep": 1349,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1350
+      "status": "unseen",
+      "reserved": false
     },
     "c2ca36dde6ea": {
       "seq": 11897588,
       "sweep": 1352,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1353
+      "status": "unseen",
+      "reserved": false
     },
     "93f253f7": {
       "seq": 11958713,
       "sweep": 1355,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1356
+      "status": "unseen",
+      "reserved": false
     },
     "122e05043db46a02": {
       "seq": 15844472,
       "sweep": 1562,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1563
+      "status": "unseen",
+      "reserved": false
     },
     "4d723536e7a9": {
       "seq": 16045628,
       "sweep": 1574,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1576
+      "status": "unseen",
+      "reserved": false
     },
     "ialbaf6d59fde": {
       "seq": 16168185,
       "sweep": 1583,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1585
+      "status": "unseen",
+      "reserved": false
     },
     "ialc3af4322ba": {
       "seq": 16168188,
       "sweep": 1583,
       "own_side": "sell",
       "qty": 4.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1585
+      "status": "unseen",
+      "reserved": false
     },
     "ial3d9d2a034d": {
       "seq": 16177659,
       "sweep": 1584,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1586
+      "status": "unseen",
+      "reserved": false
     },
     "ial3c5873fc06": {
       "seq": 16177676,
       "sweep": 1584,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1586
+      "status": "unseen",
+      "reserved": false
     },
     "ialc9551e58cd": {
       "seq": 16177690,
       "sweep": 1584,
       "own_side": "sell",
       "qty": 4.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1586
+      "status": "unseen",
+      "reserved": false
     },
     "ialfa8dad3f94": {
       "seq": 16190141,
       "sweep": 1585,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1587
+      "status": "unseen",
+      "reserved": false
     },
     "ialbd5da3bb6a": {
       "seq": 16190153,
       "sweep": 1585,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1587
+      "status": "unseen",
+      "reserved": false
     },
     "tzo-1790813796849-b": {
       "seq": 16204683,
       "sweep": 1586,
       "own_side": "sell",
       "qty": 0.1,
-      "status": "settled",
-      "reserved": false,
-      "settled_sweep": 1588
+      "status": "unseen",
+      "reserved": false
     },
     "d94bc4972671f1af": {
       "seq": 16319563,
       "sweep": 1594,
       "own_side": "sell",
       "qty": 0.1,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1595
+      "status": "unseen",
+      "reserved": false
     },
     "ilm-muouhh9i-e65382": {
       "seq": 16388171,
       "sweep": 1599,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1600
+      "status": "unseen",
+      "reserved": false
     },
     "ilm-muouo1hy-5f4c03": {
       "seq": 16400595,
       "sweep": 1600,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1601
+      "status": "unseen",
+      "reserved": false
     },
     "ilm-muouulj8-1dc1af": {
       "seq": 16414143,
       "sweep": 1601,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1602
+      "status": "unseen",
+      "reserved": false
     },
     "6c71dded8d731ead": {
       "seq": 16483743,
       "sweep": 1606,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1607
+      "status": "unseen",
+      "reserved": false
     },
     "ial157be5fe45": {
       "seq": 16483790,
       "sweep": 1606,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1607
+      "status": "unseen",
+      "reserved": false
     },
     "ialfeeedab535": {
       "seq": 16483823,
       "sweep": 1606,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1607
+      "status": "unseen",
+      "reserved": false
     },
     "4567a9e6682d501b": {
       "seq": 16497749,
       "sweep": 1607,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1608
+      "status": "unseen",
+      "reserved": false
     },
     "e8d2ad1e0b9c2639": {
       "seq": 16618686,
       "sweep": 1616,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1617
+      "status": "unseen",
+      "reserved": false
     },
     "6bdf872e57c0f123": {
       "seq": 16675649,
       "sweep": 1621,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1623
+      "status": "unseen",
+      "reserved": false
     },
     "ialce6d0ce08f": {
       "seq": 16711560,
       "sweep": 1625,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1627
+      "status": "unseen",
+      "reserved": false
     },
     "ial43f31ff04b": {
       "seq": 16711568,
       "sweep": 1625,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1627
+      "status": "unseen",
+      "reserved": false
     },
     "ial1ec234e2f8": {
       "seq": 16711575,
       "sweep": 1625,
       "own_side": "sell",
       "qty": 4.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1627
+      "status": "unseen",
+      "reserved": false
     },
     "d4902264b3c97e94": {
       "seq": 16711627,
       "sweep": 1625,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1627
+      "status": "unseen",
+      "reserved": false
     },
     "ial96d704d2ff": {
       "seq": 16717948,
       "sweep": 1626,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1628
+      "status": "unseen",
+      "reserved": false
     },
     "ial8eb43c4571": {
       "seq": 16717958,
       "sweep": 1626,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1628
+      "status": "unseen",
+      "reserved": false
     },
     "ial6e62827884": {
       "seq": 16717970,
       "sweep": 1626,
       "own_side": "sell",
       "qty": 4.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1628
+      "status": "unseen",
+      "reserved": false
     },
     "k1790826049593988": {
       "seq": 16727556,
       "sweep": 1627,
       "own_side": "sell",
       "qty": 0.07,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1629
+      "status": "unseen",
+      "reserved": false
     },
     "d82251af1194719a": {
       "seq": 16765429,
       "sweep": 1631,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1633
+      "status": "unseen",
+      "reserved": false
     },
     "4b8a69d0c8cb": {
       "seq": 16813444,
       "sweep": 1635,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1637
+      "status": "unseen",
+      "reserved": false
     },
     "cii-1642-30333": {
       "seq": 16861235,
       "sweep": 1642,
       "own_side": "sell",
       "qty": 5.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1643
+      "status": "unseen",
+      "reserved": false
     },
     "5dfc415d95e374cd": {
       "seq": 16890119,
       "sweep": 1645,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1646
+      "status": "unseen",
+      "reserved": false
     },
     "ial2bd1bde2ae": {
       "seq": 16899800,
       "sweep": 1646,
       "own_side": "sell",
       "qty": 1.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1647
+      "status": "unseen",
+      "reserved": false
     },
     "ial25d4114107": {
       "seq": 16899809,
       "sweep": 1646,
       "own_side": "sell",
       "qty": 2.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1647
+      "status": "unseen",
+      "reserved": false
     },
     "ialf47b3b7aca": {
       "seq": 16899826,
       "sweep": 1646,
       "own_side": "sell",
       "qty": 4.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1647
+      "status": "unseen",
+      "reserved": false
     },
     "4699f105": {
       "seq": 16918322,
       "sweep": 1648,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1649
+      "status": "unseen",
+      "reserved": false
     },
     "a41195ae8dbb6560": {
       "seq": 19043876,
       "sweep": 1839,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1840
+      "status": "unseen",
+      "reserved": false
     },
     "6319f851d265c53b": {
       "seq": 19619949,
       "sweep": 1894,
       "own_side": "sell",
       "qty": 0.5,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 1896
+      "status": "unseen",
+      "reserved": false
     },
     "c8cfe6e2d1d0695c": {
       "seq": 22164018,
       "sweep": 2114,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 2115
+      "status": "unseen",
+      "reserved": false
     },
     "7849829f63ee1fda": {
       "seq": 22730304,
       "sweep": 2168,
       "own_side": "sell",
       "qty": 1.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 2170
+      "status": "settled",
+      "reserved": false
     },
     "ial6e893b16b7": {
       "seq": 22797251,
       "sweep": 2176,
       "own_side": "sell",
       "qty": 5.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 2177
+      "status": "unseen",
+      "reserved": false
     },
     "ial232435b7cf": {
       "seq": 23336257,
       "sweep": 2226,
       "own_side": "sell",
       "qty": 5.0,
-      "status": "void",
-      "reserved": false,
-      "settled_sweep": 2227
-    },
-    "xaud-1790339995951-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 9,
-      "settled_sweep": 9,
-      "archive_reconciled": true
-    },
-    "xaud-1790339994520-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 9,
-      "settled_sweep": 9,
-      "archive_reconciled": true
-    },
-    "xaud-1790340493960-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 10,
-      "settled_sweep": 10,
-      "archive_reconciled": true
-    },
-    "xaud-1790340495086-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 10,
-      "settled_sweep": 10,
-      "archive_reconciled": true
-    },
-    "xaud-1790340534288-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 10,
-      "settled_sweep": 10,
-      "archive_reconciled": true
-    },
-    "xaud-1790340535578-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 10,
-      "settled_sweep": 10,
-      "archive_reconciled": true
-    },
-    "xaud-1790340783883-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 11,
-      "settled_sweep": 11,
-      "archive_reconciled": true
-    },
-    "xaud-1790340782532-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 11,
-      "settled_sweep": 11,
-      "archive_reconciled": true
-    },
-    "xaud-1790344606677-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 24,
-      "settled_sweep": 24,
-      "archive_reconciled": true
-    },
-    "xaud-1790346109245-sell": {
-      "qty": 0.1,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 29,
-      "settled_sweep": 29,
-      "archive_reconciled": true
-    },
-    "xaud-1790346356289-sell": {
-      "qty": 0.1,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 30,
-      "settled_sweep": 30,
-      "archive_reconciled": true
-    },
-    "xaud-1790346610254-sell": {
-      "qty": 0.1,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 31,
-      "settled_sweep": 31,
-      "archive_reconciled": true
-    },
-    "xaud-1790369946733-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 108,
-      "settled_sweep": 108,
-      "archive_reconciled": true
-    },
-    "xaud-1790369967719-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 108,
-      "settled_sweep": 108,
-      "archive_reconciled": true
-    },
-    "xaud-1790369977118-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790369987783-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370005706-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790369997007-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370038270-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370052203-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370061308-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370084259-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370103507-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370179179-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370179708-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370189624-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370190649-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370229562-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370230588-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370240106-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370240909-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370269920-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370270622-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370249838-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370250454-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 109,
-      "settled_sweep": 109,
-      "archive_reconciled": true
-    },
-    "xaud-1790370308098-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 110,
-      "settled_sweep": 110,
-      "archive_reconciled": true
-    },
-    "xaud-1790370308926-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 110,
-      "settled_sweep": 110,
-      "archive_reconciled": true
-    },
-    "xaud-1790370318539-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 110,
-      "settled_sweep": 110,
-      "archive_reconciled": true
-    },
-    "xaud-1790370319682-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 110,
-      "settled_sweep": 110,
-      "archive_reconciled": true
-    },
-    "xaud-1790370329710-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 110,
-      "settled_sweep": 110,
-      "archive_reconciled": true
-    },
-    "xaud-1790370330442-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 110,
-      "settled_sweep": 110,
-      "archive_reconciled": true
-    },
-    "xaud-1790370720430-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 111,
-      "settled_sweep": 111,
-      "archive_reconciled": true
-    },
-    "xaud-1790370968526-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 112,
-      "settled_sweep": 112,
-      "archive_reconciled": true
-    },
-    "xaud-1790371702976-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 114,
-      "settled_sweep": 114,
-      "archive_reconciled": true
-    },
-    "xaud-1790371948634-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 115,
-      "settled_sweep": 115,
-      "archive_reconciled": true
-    },
-    "xaud-1790372195243-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 116,
-      "settled_sweep": 116,
-      "archive_reconciled": true
-    },
-    "xaud-1790372439743-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 117,
-      "settled_sweep": 117,
-      "archive_reconciled": true
-    },
-    "xaud-1790374401839-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 123,
-      "settled_sweep": 123,
-      "archive_reconciled": true
-    },
-    "xaud-1790375141640-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 126,
-      "settled_sweep": 126,
-      "archive_reconciled": true
-    },
-    "xaud-1790375142579-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 126,
-      "settled_sweep": 126,
-      "archive_reconciled": true
-    },
-    "xaud-1790375633129-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 127,
-      "settled_sweep": 127,
-      "archive_reconciled": true
-    },
-    "xaud-1790375879092-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 128,
-      "settled_sweep": 128,
-      "archive_reconciled": true
-    },
-    "xaud-1790375879705-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 128,
-      "settled_sweep": 128,
-      "archive_reconciled": true
-    },
-    "xaud-1790376124301-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 129,
-      "settled_sweep": 129,
-      "archive_reconciled": true
-    },
-    "xaud-1790376125375-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 129,
-      "settled_sweep": 129,
-      "archive_reconciled": true
-    },
-    "xaud-1790376372852-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 130,
-      "settled_sweep": 130,
-      "archive_reconciled": true
-    },
-    "xaud-1790376375811-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 130,
-      "settled_sweep": 130,
-      "archive_reconciled": true
-    },
-    "xaud-1790377357991-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 133,
-      "settled_sweep": 133,
-      "archive_reconciled": true
-    },
-    "xaud-1790377358704-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 133,
-      "settled_sweep": 133,
-      "archive_reconciled": true
-    },
-    "xaud-1790377603861-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 134,
-      "settled_sweep": 134,
-      "archive_reconciled": true
-    },
-    "xaud-1790377604785-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 134,
-      "settled_sweep": 134,
-      "archive_reconciled": true
-    },
-    "xaud-1790378342569-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 136,
-      "settled_sweep": 136,
-      "archive_reconciled": true
-    },
-    "xaud-1790378832190-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 138,
-      "settled_sweep": 138,
-      "archive_reconciled": true
-    },
-    "xaud-1790378833216-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 138,
-      "settled_sweep": 138,
-      "archive_reconciled": true
-    },
-    "xaud-1790379078352-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 139,
-      "settled_sweep": 139,
-      "archive_reconciled": true
-    },
-    "xaud-1790379814312-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 141,
-      "settled_sweep": 141,
-      "archive_reconciled": true
-    },
-    "xaud-1790380063874-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 142,
-      "settled_sweep": 142,
-      "archive_reconciled": true
-    },
-    "xaud-1790380064900-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 142,
-      "settled_sweep": 142,
-      "archive_reconciled": true
-    },
-    "xaud-1790380309226-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 143,
-      "settled_sweep": 143,
-      "archive_reconciled": true
-    },
-    "xaud-1790380310048-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 143,
-      "settled_sweep": 143,
-      "archive_reconciled": true
-    },
-    "xaud-1790380554170-buy": {
-      "qty": 0.1,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 144,
-      "settled_sweep": 144,
-      "archive_reconciled": true
-    },
-    "xaud-1790380555095-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 144,
-      "settled_sweep": 144,
-      "archive_reconciled": true
-    },
-    "xaud-1790381535789-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 147,
-      "settled_sweep": 147,
-      "archive_reconciled": true
-    },
-    "xaud-1790382516677-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 150,
-      "settled_sweep": 150,
-      "archive_reconciled": true
-    },
-    "xaud-1790383008102-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 152,
-      "settled_sweep": 152,
-      "archive_reconciled": true
-    },
-    "xaud-1790384233580-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 156,
-      "settled_sweep": 156,
-      "archive_reconciled": true
-    },
-    "xaud-1790384234295-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 156,
-      "settled_sweep": 156,
-      "archive_reconciled": true
-    },
-    "xaud-1790384479755-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 157,
-      "settled_sweep": 157,
-      "archive_reconciled": true
-    },
-    "xaud-1790384480784-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 157,
-      "settled_sweep": 157,
-      "archive_reconciled": true
-    },
-    "xaud-1790385214675-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 159,
-      "settled_sweep": 159,
-      "archive_reconciled": true
-    },
-    "xaud-1790385215811-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 159,
-      "settled_sweep": 159,
-      "archive_reconciled": true
-    },
-    "xaud-1790385460415-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 160,
-      "settled_sweep": 160,
-      "archive_reconciled": true
-    },
-    "xaud-1790385461356-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 160,
-      "settled_sweep": 160,
-      "archive_reconciled": true
-    },
-    "xaud-1790386443273-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 163,
-      "settled_sweep": 163,
-      "archive_reconciled": true
-    },
-    "xaud-1790386443989-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 163,
-      "settled_sweep": 163,
-      "archive_reconciled": true
-    },
-    "xaud-1790387181157-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 166,
-      "settled_sweep": 166,
-      "archive_reconciled": true
-    },
-    "xaud-1790387425920-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 167,
-      "settled_sweep": 167,
-      "archive_reconciled": true
-    },
-    "xaud-1790387426646-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 167,
-      "settled_sweep": 167,
-      "archive_reconciled": true
-    },
-    "xaud-1790387917048-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 168,
-      "settled_sweep": 168,
-      "archive_reconciled": true
-    },
-    "xaud-1790387916233-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 168,
-      "settled_sweep": 168,
-      "archive_reconciled": true
-    },
-    "xaud-1790388163247-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 169,
-      "settled_sweep": 169,
-      "archive_reconciled": true
-    },
-    "xaud-1790388411959-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 170,
-      "settled_sweep": 170,
-      "archive_reconciled": true
-    },
-    "xaud-1790388412930-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 170,
-      "settled_sweep": 170,
-      "archive_reconciled": true
-    },
-    "xaud-1790389152927-buy": {
-      "qty": 0.1,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 172,
-      "settled_sweep": 172,
-      "archive_reconciled": true
-    },
-    "xaud-1790389154385-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 172,
-      "settled_sweep": 172,
-      "archive_reconciled": true
-    },
-    "xaud-1790389400133-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 173,
-      "settled_sweep": 173,
-      "archive_reconciled": true
-    },
-    "xaud-1790389398994-buy": {
-      "qty": 0.1,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 173,
-      "settled_sweep": 173,
-      "archive_reconciled": true
-    },
-    "xaud-1790389645990-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 174,
-      "settled_sweep": 174,
-      "archive_reconciled": true
-    },
-    "xaud-1790390627807-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 177,
-      "settled_sweep": 177,
-      "archive_reconciled": true
-    },
-    "xaud-1790391363561-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 180,
-      "settled_sweep": 180,
-      "archive_reconciled": true
-    },
-    "xaud-1790391364583-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 180,
-      "settled_sweep": 180,
-      "archive_reconciled": true
-    },
-    "xaud-1790392099825-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 182,
-      "settled_sweep": 182,
-      "archive_reconciled": true
-    },
-    "xaud-1790392344686-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 183,
-      "settled_sweep": 183,
-      "archive_reconciled": true
-    },
-    "xaud-1790392345598-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 183,
-      "settled_sweep": 183,
-      "archive_reconciled": true
-    },
-    "xaud-1790395049303-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 192,
-      "settled_sweep": 192,
-      "archive_reconciled": true
-    },
-    "xaud-1790395050542-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 192,
-      "settled_sweep": 192,
-      "archive_reconciled": true
-    },
-    "xaud-1790395294857-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 193,
-      "settled_sweep": 193,
-      "archive_reconciled": true
-    },
-    "xaud-1790395295992-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 193,
-      "settled_sweep": 193,
-      "archive_reconciled": true
-    },
-    "xaud-1790396524914-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 197,
-      "settled_sweep": 197,
-      "archive_reconciled": true
-    },
-    "xaud-1790396769854-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 198,
-      "settled_sweep": 198,
-      "archive_reconciled": true
-    },
-    "xaud-1790397507160-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 200,
-      "settled_sweep": 200,
-      "archive_reconciled": true
-    },
-    "xaud-1790398977320-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 205,
-      "settled_sweep": 205,
-      "archive_reconciled": true
-    },
-    "xaud-1790398978349-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 205,
-      "settled_sweep": 205,
-      "archive_reconciled": true
-    },
-    "xaud-1790399223041-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 206,
-      "settled_sweep": 206,
-      "archive_reconciled": true
-    },
-    "xaud-1790399468932-buy": {
-      "qty": 0.1,
-      "own_side": "buy",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 207,
-      "settled_sweep": 207,
-      "archive_reconciled": true
-    },
-    "xaud-1790460185082-sell": {
-      "qty": 0.1,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 409,
-      "settled_sweep": 409,
-      "archive_reconciled": true
-    },
-    "xaud-1790717427598-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1267,
-      "settled_sweep": 1267,
-      "archive_reconciled": true
-    },
-    "xaud-1790717732798-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1268,
-      "settled_sweep": 1268,
-      "archive_reconciled": true
-    },
-    "xaud-1790718038185-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1269,
-      "settled_sweep": 1269,
-      "archive_reconciled": true
-    },
-    "xaud-1790718649054-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1271,
-      "settled_sweep": 1271,
-      "archive_reconciled": true
-    },
-    "xaud-1790718954715-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1272,
-      "settled_sweep": 1272,
-      "archive_reconciled": true
-    },
-    "xaud-1790719260796-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1273,
-      "settled_sweep": 1273,
-      "archive_reconciled": true
-    },
-    "xaud-1790719583023-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1274,
-      "settled_sweep": 1274,
-      "archive_reconciled": true
-    },
-    "xaud-1790720501376-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1277,
-      "settled_sweep": 1277,
-      "archive_reconciled": true
-    },
-    "xaud-1790721421079-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1280,
-      "settled_sweep": 1280,
-      "archive_reconciled": true
-    },
-    "xaud-1790721113009-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1280,
-      "settled_sweep": 1280,
-      "archive_reconciled": true
-    },
-    "xaud-1790721727831-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1281,
-      "settled_sweep": 1281,
-      "archive_reconciled": true
-    },
-    "xaud-1790722340514-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1283,
-      "settled_sweep": 1283,
-      "archive_reconciled": true
-    },
-    "xaud-1790724488573-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1290,
-      "settled_sweep": 1290,
-      "archive_reconciled": true
-    },
-    "xaud-1790724794551-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1291,
-      "settled_sweep": 1291,
-      "archive_reconciled": true
-    },
-    "xaud-1790727243198-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1299,
-      "settled_sweep": 1299,
-      "archive_reconciled": true
-    },
-    "xaud-1790727549711-sell": {
-      "qty": 5.0,
-      "own_side": "sell",
-      "status": "settled",
-      "reserved": false,
-      "sweep": 1300,
-      "settled_sweep": 1300,
-      "archive_reconciled": true
-    },
-    "xaud-1790727856316-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1301,
-      "settled_sweep": 1301,
-      "archive_reconciled": true
-    },
-    "xaud-1790728161997-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1303,
-      "settled_sweep": 1303,
-      "archive_reconciled": true
-    },
-    "xaud-1790730307187-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1310,
-      "settled_sweep": 1310,
-      "archive_reconciled": true
-    },
-    "xaud-1790730919444-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1312,
-      "settled_sweep": 1312,
-      "archive_reconciled": true
-    },
-    "xaud-1790731225820-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1313,
-      "settled_sweep": 1313,
-      "archive_reconciled": true
-    },
-    "xaud-1790731533259-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1314,
-      "settled_sweep": 1314,
-      "archive_reconciled": true
-    },
-    "xaud-1790731839271-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1315,
-      "settled_sweep": 1315,
-      "archive_reconciled": true
-    },
-    "xaud-1790732756033-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1318,
-      "settled_sweep": 1318,
-      "archive_reconciled": true
-    },
-    "xaud-1790733062307-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1319,
-      "settled_sweep": 1319,
-      "archive_reconciled": true
-    },
-    "xaud-1790733368283-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1320,
-      "settled_sweep": 1320,
-      "archive_reconciled": true
-    },
-    "xaud-1790733980034-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1322,
-      "settled_sweep": 1322,
-      "archive_reconciled": true
-    },
-    "xaud-1790734286221-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1323,
-      "settled_sweep": 1323,
-      "archive_reconciled": true
-    },
-    "xaud-1790734899000-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1325,
-      "settled_sweep": 1325,
-      "archive_reconciled": true
-    },
-    "xaud-1790735204536-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1326,
-      "settled_sweep": 1326,
-      "archive_reconciled": true
-    },
-    "xaud-1790735510322-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1327,
-      "settled_sweep": 1327,
-      "archive_reconciled": true
-    },
-    "xaud-1790735816025-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1328,
-      "settled_sweep": 1328,
-      "archive_reconciled": true
-    },
-    "xaud-1790737042556-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1332,
-      "settled_sweep": 1332,
-      "archive_reconciled": true
-    },
-    "xaud-1790738572341-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1337,
-      "settled_sweep": 1337,
-      "archive_reconciled": true
-    },
-    "xaud-1790739183154-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1339,
-      "settled_sweep": 1339,
-      "archive_reconciled": true
-    },
-    "xaud-1790741939076-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1348,
-      "settled_sweep": 1348,
-      "archive_reconciled": true
-    },
-    "xaud-1790742551551-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1350,
-      "settled_sweep": 1350,
-      "archive_reconciled": true
-    },
-    "xaud-1790742857104-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1351,
-      "settled_sweep": 1351,
-      "archive_reconciled": true
-    },
-    "xaud-1790743163076-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1352,
-      "settled_sweep": 1352,
-      "archive_reconciled": true
-    },
-    "xaud-1790743774922-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1354,
-      "settled_sweep": 1354,
-      "archive_reconciled": true
-    },
-    "xaud-1790744385373-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1356,
-      "settled_sweep": 1356,
-      "archive_reconciled": true
-    },
-    "xaud-1790744690593-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1357,
-      "settled_sweep": 1357,
-      "archive_reconciled": true
-    },
-    "xaud-1790744995758-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1358,
-      "settled_sweep": 1358,
-      "archive_reconciled": true
-    },
-    "xaud-1790745300683-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1360,
-      "settled_sweep": 1360,
-      "archive_reconciled": true
-    },
-    "xaud-1790745606807-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1361,
-      "settled_sweep": 1361,
-      "archive_reconciled": true
-    },
-    "xaud-1790804607729-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1557,
-      "settled_sweep": 1557,
-      "archive_reconciled": true
-    },
-    "xaud-1790805219988-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1559,
-      "settled_sweep": 1559,
-      "archive_reconciled": true
-    },
-    "xaud-1790805526145-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1560,
-      "settled_sweep": 1560,
-      "archive_reconciled": true
-    },
-    "xaud-1790806137562-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1562,
-      "settled_sweep": 1562,
-      "archive_reconciled": true
-    },
-    "xaud-1790806751041-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1564,
-      "settled_sweep": 1564,
-      "archive_reconciled": true
-    },
-    "xaud-1790807057011-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1565,
-      "settled_sweep": 1565,
-      "archive_reconciled": true
-    },
-    "xaud-1790807363598-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1567,
-      "settled_sweep": 1567,
-      "archive_reconciled": true
-    },
-    "xaud-1790807669137-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1567,
-      "settled_sweep": 1567,
-      "archive_reconciled": true
-    },
-    "xaud-1790807977374-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1568,
-      "settled_sweep": 1568,
-      "archive_reconciled": true
-    },
-    "xaud-1790808283949-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1569,
-      "settled_sweep": 1569,
-      "archive_reconciled": true
-    },
-    "xaud-1790808593410-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1570,
-      "settled_sweep": 1570,
-      "archive_reconciled": true
-    },
-    "xaud-1790808902154-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1572,
-      "settled_sweep": 1572,
-      "archive_reconciled": true
-    },
-    "xaud-1790809819784-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1575,
-      "settled_sweep": 1575,
-      "archive_reconciled": true
-    },
-    "xaud-1790810126498-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1576,
-      "settled_sweep": 1576,
-      "archive_reconciled": true
-    },
-    "xaud-1790810738540-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1578,
-      "settled_sweep": 1578,
-      "archive_reconciled": true
-    },
-    "xaud-1790811044722-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1579,
-      "settled_sweep": 1579,
-      "archive_reconciled": true
-    },
-    "xaud-1790811655543-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1581,
-      "settled_sweep": 1581,
-      "archive_reconciled": true
-    },
-    "xaud-1790811961824-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1582,
-      "settled_sweep": 1582,
-      "archive_reconciled": true
-    },
-    "xaud-1790812572748-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1584,
-      "settled_sweep": 1584,
-      "archive_reconciled": true
-    },
-    "xaud-1790812880892-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1585,
-      "settled_sweep": 1585,
-      "archive_reconciled": true
-    },
-    "xaud-1790813189628-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1586,
-      "settled_sweep": 1586,
-      "archive_reconciled": true
-    },
-    "xaud-1790813803506-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1588,
-      "settled_sweep": 1588,
-      "archive_reconciled": true
-    },
-    "xaud-1790814109572-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1589,
-      "settled_sweep": 1589,
-      "archive_reconciled": true
-    },
-    "xaud-1790814415539-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1590,
-      "settled_sweep": 1590,
-      "archive_reconciled": true
-    },
-    "xaud-1790814721614-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1591,
-      "settled_sweep": 1591,
-      "archive_reconciled": true
-    },
-    "xaud-1790815027587-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1592,
-      "settled_sweep": 1592,
-      "archive_reconciled": true
-    },
-    "xaud-1790815946006-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1595,
-      "settled_sweep": 1595,
-      "archive_reconciled": true
-    },
-    "xaud-1790817476569-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1600,
-      "settled_sweep": 1600,
-      "archive_reconciled": true
-    },
-    "xaud-1790818395198-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1603,
-      "settled_sweep": 1603,
-      "archive_reconciled": true
-    },
-    "xaud-1790818089442-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1604,
-      "settled_sweep": 1604,
-      "archive_reconciled": true
-    },
-    "xaud-1790820537935-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1610,
-      "settled_sweep": 1610,
-      "archive_reconciled": true
-    },
-    "xaud-1790820843704-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1611,
-      "settled_sweep": 1611,
-      "archive_reconciled": true
-    },
-    "xaud-1790821149676-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1612,
-      "settled_sweep": 1612,
-      "archive_reconciled": true
-    },
-    "xaud-1790821455650-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1613,
-      "settled_sweep": 1613,
-      "archive_reconciled": true
-    },
-    "xaud-1790822067913-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1615,
-      "settled_sweep": 1615,
-      "archive_reconciled": true
-    },
-    "xaud-1790822374694-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1616,
-      "settled_sweep": 1616,
-      "archive_reconciled": true
-    },
-    "xaud-1790822987257-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1618,
-      "settled_sweep": 1618,
-      "archive_reconciled": true
-    },
-    "xaud-1790823597890-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1621,
-      "settled_sweep": 1621,
-      "archive_reconciled": true
-    },
-    "xaud-1790824210784-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1623,
-      "settled_sweep": 1623,
-      "archive_reconciled": true
-    },
-    "xaud-1790824516025-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1624,
-      "settled_sweep": 1624,
-      "archive_reconciled": true
-    },
-    "xaud-1790824821780-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1625,
-      "settled_sweep": 1625,
-      "archive_reconciled": true
-    },
-    "xaud-1790825127561-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1626,
-      "settled_sweep": 1626,
-      "archive_reconciled": true
-    },
-    "xaud-1790825438160-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1627,
-      "settled_sweep": 1627,
-      "archive_reconciled": true
-    },
-    "xaud-1790826053580-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1629,
-      "settled_sweep": 1629,
-      "archive_reconciled": true
-    },
-    "xaud-1790827278065-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1633,
-      "settled_sweep": 1633,
-      "archive_reconciled": true
-    },
-    "xaud-1790827583724-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1634,
-      "settled_sweep": 1634,
-      "archive_reconciled": true
-    },
-    "xaud-1790828501535-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1637,
-      "settled_sweep": 1637,
-      "archive_reconciled": true
-    },
-    "xaud-1790828807176-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1638,
-      "settled_sweep": 1638,
-      "archive_reconciled": true
-    },
-    "xaud-1790829113139-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1639,
-      "settled_sweep": 1639,
-      "archive_reconciled": true
-    },
-    "xaud-1790829418495-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1640,
-      "settled_sweep": 1640,
-      "archive_reconciled": true
-    },
-    "xaud-1790830029220-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1642,
-      "settled_sweep": 1642,
-      "archive_reconciled": true
-    },
-    "xaud-1790830335917-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1643,
-      "settled_sweep": 1643,
-      "archive_reconciled": true
-    },
-    "xaud-1790830946830-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1645,
-      "settled_sweep": 1645,
-      "archive_reconciled": true
-    },
-    "xaud-1790831253246-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1646,
-      "settled_sweep": 1646,
-      "archive_reconciled": true
-    },
-    "xaud-1790831867137-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1648,
-      "settled_sweep": 1648,
-      "archive_reconciled": true
-    },
-    "xaud-1790832174853-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1649,
-      "settled_sweep": 1649,
-      "archive_reconciled": true
-    },
-    "xaud-1790885928016-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1828,
-      "settled_sweep": 1828,
-      "archive_reconciled": true
-    },
-    "xaud-1790887123403-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1832,
-      "settled_sweep": 1832,
-      "archive_reconciled": true
-    },
-    "xaud-1790887737850-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1834,
-      "settled_sweep": 1834,
-      "archive_reconciled": true
-    },
-    "xaud-1790888352197-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1836,
-      "settled_sweep": 1836,
-      "archive_reconciled": true
-    },
-    "xaud-1790888658930-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1837,
-      "settled_sweep": 1837,
-      "archive_reconciled": true
-    },
-    "xaud-1790888967250-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1838,
-      "settled_sweep": 1838,
-      "archive_reconciled": true
-    },
-    "xaud-1790889274903-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1839,
-      "settled_sweep": 1839,
-      "archive_reconciled": true
-    },
-    "xaud-1790904598549-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1891,
-      "settled_sweep": 1891,
-      "archive_reconciled": true
-    },
-    "xaud-1790904905713-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1892,
-      "settled_sweep": 1892,
-      "archive_reconciled": true
-    },
-    "xaud-1790905213565-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1893,
-      "settled_sweep": 1893,
-      "archive_reconciled": true
-    },
-    "xaud-1790905520775-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1894,
-      "settled_sweep": 1894,
-      "archive_reconciled": true
-    },
-    "xaud-1790905827877-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 1895,
-      "settled_sweep": 1895,
-      "archive_reconciled": true
-    },
-    "xaud-1790987078895-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 2165,
-      "settled_sweep": 2165,
-      "archive_reconciled": true
-    },
-    "xaud-1790988000174-sell": {
-      "qty": 1.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 2169,
-      "settled_sweep": 2169,
-      "archive_reconciled": true
-    },
-    "xaud-1790988920480-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 2172,
-      "settled_sweep": 2172,
-      "archive_reconciled": true
-    },
-    "xaud-1790989226858-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 2173,
-      "settled_sweep": 2173,
-      "archive_reconciled": true
-    },
-    "xaud-1790989532911-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 2174,
-      "settled_sweep": 2174,
-      "archive_reconciled": true
-    },
-    "xaud-1790989839413-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 2175,
-      "settled_sweep": 2175,
-      "archive_reconciled": true
-    },
-    "xaud-1790990146205-sell": {
-      "qty": 5.0,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 2176,
-      "settled_sweep": 2176,
-      "archive_reconciled": true
-    },
-    "xaud-1790347357377-sell": {
-      "qty": 0.1,
-      "own_side": "flat",
-      "status": "void",
-      "reserved": false,
-      "sweep": 33,
-      "settled_sweep": 33,
-      "archive_reconciled": true
+      "status": "pending",
+      "reserved": true
     }
   },
   "registered": true,
@@ -8446,185 +6167,10 @@
       "qty": 0.1
     }
   },
-  "position": -42.48,
-  "pending_position": 0.0,
+  "position": -1.0,
+  "pending_position": -5.0,
   "risk_model": 2,
-  "last_quote_sweep": 2415,
+  "last_quote_sweep": 2175,
   "unreconciled_probe_gross_qty": 0.03,
-  "reconciled_baseline_key": "-42.4800:archive-2404",
-  "reconciled_baseline_position": -42.48,
-  "free_polf": 1.4,
-  "reconciled_baseline_free_polf": 1.4,
-  "reconciled_baseline_sweep": 2404,
-  "reconciliation": {
-    "source": "challenges.technocore.chat close-1 referee archive",
-    "verified_price_room": "d-close1-price",
-    "latest_sweep": 2404,
-    "completed_at": "2026-10-03T21:10:25.411867+00:00",
-    "archive_records_checked": 574,
-    "signed_price_hashes_checked": 574,
-    "redacted_archives_checked": 524,
-    "maker_offers_matched": 237,
-    "taker_trades_matched": 382
-  },
-  "archive_reconciled_sweep": 2404,
-  "archive_settled_trade_ids": [
-    "13f3737c98ef",
-    "1673c31ab821dfa8",
-    "1f819ec5e2c300a7",
-    "3a476f9dd7feb422",
-    "3d4b85b2322e9400",
-    "42f5f8de43a95557",
-    "7557950f704d31ea",
-    "7d352151fe312241",
-    "7ff9cab02fc1447e",
-    "911e146b4b667a3a",
-    "ad50326f98f38d38",
-    "edcb8f529004f621",
-    "k1790371868648244",
-    "k1790373353482495",
-    "k1790376362705395",
-    "k1790376363225385",
-    "k1790379526414994",
-    "k1790380001431788",
-    "k1790384426863867",
-    "k1790384427428153",
-    "k1790392829392886",
-    "k1790392829905512",
-    "k1790395521738904",
-    "k1790395521953365",
-    "ms03bc3a9303",
-    "ms16000feab7",
-    "msd87162492c",
-    "mseefa8e50f8",
-    "scalp-3e06e0-1279-0b-67c7",
-    "scalp-3e06e0-1286-0b-d5d5",
-    "scalp-3e06e0-1286-1b-f0e2",
-    "scalp-3e06e0-1286-2b-9fe9",
-    "scalp-3e06e0-1286-3b-b57a",
-    "scalp-3e06e0-1286-4b-55f0",
-    "t_e78825u5",
-    "t_xf3pmi8b",
-    "tzo-1790394306467-b",
-    "tzo-1790394306467-s",
-    "tzo-1790813796849-b",
-    "xaud-1790339994520-buy",
-    "xaud-1790339995951-sell",
-    "xaud-1790340493960-buy",
-    "xaud-1790340495086-sell",
-    "xaud-1790340534288-buy",
-    "xaud-1790340535578-sell",
-    "xaud-1790340782532-buy",
-    "xaud-1790340783883-sell",
-    "xaud-1790344606677-buy",
-    "xaud-1790369946733-buy",
-    "xaud-1790369967719-buy",
-    "xaud-1790369977118-buy",
-    "xaud-1790369987783-buy",
-    "xaud-1790369997007-buy",
-    "xaud-1790370005706-buy",
-    "xaud-1790370038270-buy",
-    "xaud-1790370052203-buy",
-    "xaud-1790370061308-buy",
-    "xaud-1790370084259-buy",
-    "xaud-1790370103507-buy",
-    "xaud-1790370179179-buy",
-    "xaud-1790370179708-sell",
-    "xaud-1790370189624-buy",
-    "xaud-1790370190649-sell",
-    "xaud-1790370229562-buy",
-    "xaud-1790370230588-sell",
-    "xaud-1790370240106-buy",
-    "xaud-1790370240909-sell",
-    "xaud-1790370249838-buy",
-    "xaud-1790370250454-sell",
-    "xaud-1790370269920-buy",
-    "xaud-1790370270622-sell",
-    "xaud-1790370308098-buy",
-    "xaud-1790370308926-sell",
-    "xaud-1790370318539-buy",
-    "xaud-1790370319682-sell",
-    "xaud-1790370329710-buy",
-    "xaud-1790370330442-sell",
-    "xaud-1790370720430-sell",
-    "xaud-1790370968526-sell",
-    "xaud-1790371702976-sell",
-    "xaud-1790371948634-sell",
-    "xaud-1790372195243-sell",
-    "xaud-1790372439743-sell",
-    "xaud-1790374401839-sell",
-    "xaud-1790375141640-buy",
-    "xaud-1790375142579-sell",
-    "xaud-1790375633129-sell",
-    "xaud-1790375879092-buy",
-    "xaud-1790375879705-sell",
-    "xaud-1790376124301-buy",
-    "xaud-1790376125375-sell",
-    "xaud-1790376372852-buy",
-    "xaud-1790376375811-sell",
-    "xaud-1790377357991-buy",
-    "xaud-1790377358704-sell",
-    "xaud-1790377603861-buy",
-    "xaud-1790377604785-sell",
-    "xaud-1790378342569-sell",
-    "xaud-1790378832190-buy",
-    "xaud-1790378833216-sell",
-    "xaud-1790379078352-sell",
-    "xaud-1790379814312-buy",
-    "xaud-1790380063874-buy",
-    "xaud-1790380064900-sell",
-    "xaud-1790380309226-buy",
-    "xaud-1790380310048-sell",
-    "xaud-1790380555095-sell",
-    "xaud-1790381535789-sell",
-    "xaud-1790382516677-sell",
-    "xaud-1790383008102-buy",
-    "xaud-1790384233580-buy",
-    "xaud-1790384234295-sell",
-    "xaud-1790384479755-buy",
-    "xaud-1790384480784-sell",
-    "xaud-1790385214675-buy",
-    "xaud-1790385215811-sell",
-    "xaud-1790385460415-buy",
-    "xaud-1790385461356-sell",
-    "xaud-1790386443273-buy",
-    "xaud-1790386443989-sell",
-    "xaud-1790387181157-sell",
-    "xaud-1790387425920-buy",
-    "xaud-1790387426646-sell",
-    "xaud-1790387916233-buy",
-    "xaud-1790387917048-sell",
-    "xaud-1790388163247-sell",
-    "xaud-1790388411959-buy",
-    "xaud-1790388412930-sell",
-    "xaud-1790389154385-sell",
-    "xaud-1790389400133-sell",
-    "xaud-1790389645990-sell",
-    "xaud-1790390627807-sell",
-    "xaud-1790391363561-buy",
-    "xaud-1790391364583-sell",
-    "xaud-1790392099825-sell",
-    "xaud-1790392344686-buy",
-    "xaud-1790392345598-sell",
-    "xaud-1790395049303-buy",
-    "xaud-1790395050542-sell",
-    "xaud-1790395294857-buy",
-    "xaud-1790395295992-sell",
-    "xaud-1790396524914-sell",
-    "xaud-1790396769854-buy",
-    "xaud-1790397507160-sell",
-    "xaud-1790398977320-buy",
-    "xaud-1790398978349-sell",
-    "xaud-1790399223041-buy",
-    "xaud-1790399468932-buy",
-    "xaud-1790460185082-sell",
-    "xaud-1790717427598-sell",
-    "xaud-1790717732798-sell",
-    "xaud-1790719583023-sell",
-    "xaud-1790720501376-sell",
-    "xaud-1790721113009-sell",
-    "xaud-1790722340514-sell",
-    "xaud-1790727243198-sell",
-    "xaud-1790727549711-sell"
-  ]
+  "reconciled_baseline_key": "-1.0000:local"
 }
