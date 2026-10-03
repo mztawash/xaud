@@ -40,6 +40,7 @@ from xaud_records import (
     build_settlement_frame,
     parse_xaud_record,
 )
+from close_call_observer import observe_message as observe_close_call_message
 from state import (
     load_state,
     save_state,
@@ -78,6 +79,10 @@ ACTIVE_ROOMS = [
     "infra",
     "tclk-offers",
     "xaud",
+    "close1",
+    "d-close1-price",
+    "d-close1-positions",
+    "d-close1-flow",
 ]
 
 # The rooms the agent always watches. Deal rooms are derived at runtime and
@@ -1725,6 +1730,20 @@ def maybe_answer_query(room, seq, sender, text):
             )
         elif verb in ("status", "stats", "index") and not terms:
             summary = index_summary(state)
+            close_call = state.get("close_call_capture", {})
+            captured_trades = close_call.get("trades", {})
+            statuses = [
+                trade.get("status") for trade in captured_trades.values()
+                if isinstance(trade, dict)
+            ] if isinstance(captured_trades, dict) else []
+            close_call_summary = (
+                f" Close Call | trades {len(statuses)}"
+                f" | flow-reported settled {statuses.count('flow_reported_settled')}"
+                f" | flow-reported void {statuses.count('flow_reported_void')}"
+                f" | verified settled {statuses.count('settled')}"
+                f" | void {statuses.count('void')}"
+                f" | rejected records {int(close_call.get('rejected', 0) or 0)}."
+            )
             reply = (
                 "xaud index | agents tracked "
                 f"{summary['agents_tracked']} | with paid work "
@@ -1734,7 +1753,8 @@ def maybe_answer_query(room, seq, sender, text):
                 f"{summary['claimed_jobs']} | evidence refs "
                 f"{summary['evidence_refs']} | repeaters flagged "
                 f"{summary['agents_flagged_repeaters']} | last evidence "
-                f"{summary['last_index_update']}. "
+                f"{summary['last_index_update']}."
+                f"{close_call_summary} "
                 "Ask me: xaud find <capability> (e.g. tclk, audit, trading)."
             )
         else:
@@ -1843,6 +1863,18 @@ def process_message(room, message):
     # as evidence ("see room:lobby seq:9").
     if remember_evidence(state, room, seq, message):
         save_state(state)
+
+    # Close Call is an evidence-only data source: never post, accept, or alter
+    # the separate participant's risk state from this observer.
+    close_call_verdict = observe_close_call_message(state, room, message)
+    if close_call_verdict is not None:
+        if close_call_verdict == "rejected":
+            print(f"[CLOSE CALL REJECTED] {room}:{seq} record failed verification")
+        else:
+            print(f"[CLOSE CALL CAPTURED] {close_call_verdict} {room}:{seq}")
+        save_state(state)
+        if room in ("close1", "d-close1-price", "d-close1-positions", "d-close1-flow"):
+            return
 
     # The index speaks when addressed: "xaud find tclk agent".
     if maybe_answer_query(room, seq, sender, text):
@@ -1976,6 +2008,14 @@ def initialize_room_cursors():
 
         # Already initialized.
         if room in room_cursors:
+            continue
+
+        if room in ("close1", "d-close1-price", "d-close1-positions", "d-close1-flow"):
+            # Backfill the venue's retained page history on first enable. The
+            # regular loop drains further pages before advancing past them.
+            room_cursors[room] = 0
+            print(f"[ROOM INIT] /r/{room} will backfill retained Close Call evidence")
+            save_state(state)
             continue
 
         print(
@@ -2361,15 +2401,15 @@ def main():
     # ------------------------------------------------------------------
     # LIVE LOOP — firehose-first scheduler
     #
-    # ``tclk-offers`` moves far faster than a sequential sweep can absorb
-    # (~10-25 msg/s measured) and its ring is reaped quickly, so an offer
-    # missed between sweeps is gone forever and its deal can never fold. The
-    # firehose rooms are therefore polled every tick with the maximum page
-    # and drained while a full page keeps coming back; the long tail of hot
-    # and deal rooms is swept in slices, with newly discovered deal rooms
-    # pushed to the front, so it can never starve the firehose.
+    # ``tclk-offers`` and the Close Call rooms can move faster than a
+    # sequential sweep can absorb, so these firehose rooms are polled every
+    # tick with the maximum page. The long tail of hot and deal rooms is
+    # swept in slices, with newly discovered deal rooms pushed to the front.
     # ------------------------------------------------------------------
-    FIREHOSE_ROOMS = ("tclk-offers", "xaud")
+    FIREHOSE_ROOMS = (
+        "tclk-offers", "xaud", "close1", "d-close1-price",
+        "d-close1-positions", "d-close1-flow",
+    )
     PAGE = 200             # venue cap; the largest page it will return
     TICK_S = 1.0           # target firehose cadence
     SWEEP_SLICE = 5        # non-firehose rooms polled per tick

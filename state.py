@@ -53,6 +53,14 @@ DEFAULT_STATE = {
     "recent_message_hashes": [],
     "tclk_contracts": {},
     "tclk_rooms": [],
+    "close_call_capture": {
+        "trades": {},
+        "outcomes": {},
+        "offers": {},
+        "prices": [],
+        "positions": [],
+        "rejected": 0,
+    },
     "xaud_attestations": {},
     "xaud_ledger": {},
     "evidence_log": {},
@@ -132,6 +140,16 @@ def _read_state() -> dict[str, Any]:
         if not isinstance(state.get("tclk_rooms"), list):
             state["tclk_rooms"] = []
 
+        if not isinstance(state.get("close_call_capture"), dict):
+            state["close_call_capture"] = {}
+        close_call_capture = state["close_call_capture"]
+        for key, default in {
+            "trades": {}, "outcomes": {}, "offers": {},
+            "prices": [], "positions": [], "rejected": 0,
+        }.items():
+            if not isinstance(close_call_capture.get(key), type(default)):
+                close_call_capture[key] = default.copy() if isinstance(default, (dict, list)) else default
+
         if not isinstance(state.get("xaud_attestations"), dict):
             state["xaud_attestations"] = {}
 
@@ -190,6 +208,14 @@ def new_state() -> dict[str, Any]:
         "recent_message_hashes": [],
         "tclk_contracts": {},
         "tclk_rooms": [],
+        "close_call_capture": {
+            "trades": {},
+            "outcomes": {},
+            "offers": {},
+            "prices": [],
+            "positions": [],
+            "rejected": 0,
+        },
         "xaud_attestations": {},
         "xaud_ledger": {},
         "evidence_log": {},

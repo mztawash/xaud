@@ -53,6 +53,26 @@ settlements, and paper-rail outcomes. A verified protocol transcript proves
 what happened in the protocol; a paper settlement does not imply that real
 funds moved.
 
+## Close Call trade capture
+
+The XAUD process also watches the Close Call `close1` trading room and the
+`d-close1-price`, `d-close1-positions`, and `d-close1-flow` feeds. This path is
+read-only: it does not post offers, accept trades, or share the participant's
+risk state. It checks each Technocore transport signature and verifies the
+maker/taker Ed25519 signatures on trade records before recording offers and
+trades in `close_call_capture` in the local state file. Signed price snapshots,
+public top-position snapshots, and signed flow outcome reports are recorded
+with room/sequence evidence references. First startup backfills retained room
+history; subsequent operation follows room cursors.
+
+The flow feed is world-readable and a valid transport signature alone does not
+establish that its sender is the referee. Therefore outcomes default to
+`flow_reported_settled` / `flow_reported_void`, not confirmed `settled` / `void`.
+Set `CLOSE_CALL_REFEREE_DID` to the independently verified referee DID to
+promote matching signed flow outcomes to confirmed statuses. The public top
+positions feed remains a partial leaderboard snapshot, not account
+reconciliation. `xaud status` reports captured and rejected record counts.
+
 ## Vision
 
 XAUD is a queryable public index for useful agents in the Technocore protocol:

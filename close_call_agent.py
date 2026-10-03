@@ -6,7 +6,10 @@ from __future__ import annotations
 import argparse
 import base64
 import copy
+import gzip
+import hashlib
 import json
+import math
 import os
 import re
 import time
@@ -16,6 +19,7 @@ import urllib.request
 from pathlib import Path
 
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
+from tclk_observer import verify_transport_record
 
 BASE = os.environ.get("TECHNOCORE_URL", "https://technocore.chat")
 SEASON = "close-1"
@@ -23,6 +27,7 @@ TRADING_ROOM = "close1"
 PRICE_ROOM = "d-close1-price"
 POSITIONS_ROOM = "d-close1-positions"
 FLOW_ROOM = "d-close1-flow"
+ARCHIVE_BASE = "https://challenges.technocore.chat/close-1"
 STATE_FILE = Path(os.environ.get("CLOSE_CALL_STATE", "close_call_state.json"))
 DID_RE = re.compile(r"^did:key:z6Mk[1-9A-HJ-NP-Za-km-z]{44}$")
 BASE_FEE_RATE = 0.01
@@ -68,6 +73,35 @@ def expected_edge_for_side(position_side: str, price: float, reference: float, f
 
 def expected_edge_when_taker(maker_side: str, price: float, reference: float, forecast: float) -> tuple[bool, float]:
     return expected_edge_for_side("buy" if maker_side == "sell" else "sell", price, reference, forecast)
+
+
+def position_change_allowed(current: float, projected: float, limit: float) -> bool:
+    """Enforce the cap normally; above it, allow strictly risk-reducing trades only."""
+    if abs(current) <= limit:
+        return abs(projected) <= limit
+    return abs(projected) < abs(current)
+
+
+def maker_quote_price(
+    side: str,
+    reference: float,
+    lower: float,
+    upper: float,
+    forecast: float,
+) -> tuple[float, float] | None:
+    """Return the best edge-positive cent quote inside the referee band."""
+    if side == "buy":
+        edge_ceiling = forecast / (1.0 + BASE_FEE_RATE + 0.005)
+        price = math.floor(min(reference, edge_ceiling) * 100.0 + 1e-9) / 100.0
+    elif side == "sell":
+        edge_floor = forecast / (1.0 - BASE_FEE_RATE - 0.005)
+        price = math.ceil(max(reference, edge_floor) * 100.0 - 1e-9) / 100.0
+    else:
+        return None
+    if price < lower or price > upper:
+        return None
+    allowed, edge = expected_edge_for_side(side, price, reference, forecast)
+    return (price, edge) if allowed else None
 
 
 def b58(data: bytes) -> str:
@@ -143,6 +177,150 @@ def get_json(path: str) -> dict:
             delay = min(5 * attempt, 60)
             print(f"network read failed ({error}); retrying in {delay}s", flush=True)
             time.sleep(delay)
+
+
+def get_archive_bytes(url: str) -> tuple[bytes, str | None]:
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": "close-call-agent/1", "Accept-Encoding": "gzip"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return response.read(), response.headers.get("Content-Encoding")
+
+
+def _decompress_archive(raw: bytes, encoding: str | None) -> bytes:
+    return gzip.decompress(raw) if encoding == "gzip" else raw
+
+
+def reconcile_archive_sweeps(state: dict, did: str) -> int:
+    """Apply newly archived referee sweeps to this account before trading.
+
+    The public flow room is size-capped and can omit trade outcomes. The
+    archive's per-sweep file hash is anchored by the referee's signed price
+    post; process every new archived sweep so maker fills and taker fills both
+    reach the local position book.
+    """
+    cursor = int(state.get("archive_reconciled_sweep") or state.get("reconciled_baseline_sweep") or 0)
+    raw_index, index_encoding = get_archive_bytes(f"{ARCHIVE_BASE}/index.json")
+    index = json.loads(_decompress_archive(raw_index, index_encoding))
+    if not isinstance(index, dict) or index.get("contest") != SEASON:
+        raise RuntimeError("unexpected Close Call archive index")
+    entries = {
+        int(item["n"]): item for item in index.get("sweeps", [])
+        if isinstance(item, dict) and type(item.get("n")) is int
+    }
+    latest = max(entries, default=0)
+    if latest <= cursor:
+        return 0
+    sweeps = list(range(cursor + 1, latest + 1))
+    if len(sweeps) > 200:
+        raise RuntimeError(f"archive reconciliation backlog too large ({len(sweeps)} sweeps); refusing to trade")
+
+    price_body = get_json(f"/r/{PRICE_ROOM}?format=json&since={cursor}&limit=200")
+    signed_files: dict[int, str] = {}
+    for message in price_body.get("messages") or []:
+        try:
+            payload = json.loads(message.get("text", "{}"))
+        except (AttributeError, TypeError, json.JSONDecodeError):
+            continue
+        if payload.get("t") != "price":
+            continue
+        if not verify_transport_record(PRICE_ROOM, message):
+            raise RuntimeError("invalid referee price-room signature during archive reconciliation")
+        n, file_hash = payload.get("n"), payload.get("file")
+        if type(n) is int and isinstance(file_hash, str):
+            signed_files[n] = file_hash
+
+    settled_ids = set(state.get("archive_settled_trade_ids", []))
+    trades = state.setdefault("trades", {})
+    changed = 0
+    for n in sweeps:
+        entry = entries.get(n)
+        if entry is None:
+            raise RuntimeError(f"archive index is missing sweep {n}")
+        if signed_files.get(n) != entry.get("file"):
+            raise RuntimeError(f"sweep {n} is not anchored by a retained signed referee price record")
+        path = entry.get("path")
+        if not isinstance(path, str) or path.startswith("/") or ".." in Path(path).parts:
+            raise RuntimeError(f"unsafe archive path for sweep {n}")
+        raw, encoding = get_archive_bytes(f"{ARCHIVE_BASE}/{path}")
+        raw = _decompress_archive(raw, encoding)
+        if len(raw) != entry.get("bytes"):
+            raise RuntimeError(f"sweep {n} archive length mismatch")
+        archive_hash = hashlib.sha256(raw).hexdigest()
+        if entry.get("status") == "full":
+            if archive_hash != entry.get("file"):
+                raise RuntimeError(f"sweep {n} full archive hash mismatch")
+        elif entry.get("status") == "redacted":
+            if archive_hash != entry.get("sha256"):
+                raise RuntimeError(f"sweep {n} redacted archive hash mismatch")
+        else:
+            raise RuntimeError(f"sweep {n} archive status is unknown")
+        record = json.loads(raw)
+        event, output = record.get("input", {}), record.get("output", {})
+        incoming, outcomes = event.get("trades", []), output.get("trades", [])
+        if event.get("n") != n or output.get("sweep") != n or len(incoming) != len(outcomes):
+            raise RuntimeError(f"sweep {n} archive structure is inconsistent")
+        for terms, outcome in zip(incoming, outcomes):
+            if not isinstance(terms, dict) or not isinstance(outcome, dict):
+                continue
+            maker = terms.get("maker")
+            countersigner = terms.get("countersigner")
+            if maker != did and countersigner != did:
+                continue
+            trade_id = terms.get("id")
+            if not isinstance(trade_id, str):
+                raise RuntimeError(f"sweep {n} has a participant trade without an ID")
+            try:
+                qty = float(terms["qty"])
+            except (KeyError, TypeError, ValueError):
+                raise RuntimeError(f"sweep {n} has malformed participant trade quantity")
+            maker_delta = qty if terms.get("side") == "buy" else -qty
+            own_delta = (maker_delta if maker == did else 0.0) + (-maker_delta if countersigner == did else 0.0)
+            row = trades.get(trade_id)
+            if not isinstance(row, dict):
+                row = {
+                    "qty": qty,
+                    "own_side": "buy" if own_delta > 0 else "sell" if own_delta < 0 else "flat",
+                    "reserved": False,
+                    "archive_reconciled": True,
+                }
+                trades[trade_id] = row
+            reserved_delta = (
+                float(row.get("qty") or 0.0)
+                * (1 if row.get("own_side") == "buy" else -1)
+                if row.get("reserved") else 0.0
+            )
+            if outcome.get("outcome") == "settled":
+                already_applied = trade_id in settled_ids or row.get("status") == "settled"
+                if not already_applied:
+                    state["position"] = round(float(state.get("position") or 0.0) + own_delta, 2)
+                settled_ids.add(trade_id)
+                if row.get("reserved"):
+                    state["pending_position"] = round(
+                        float(state.get("pending_position") or 0.0) - reserved_delta, 2
+                    )
+                row.update({"status": "settled", "reserved": False, "settled_sweep": n})
+                changed += 1
+            elif outcome.get("outcome") == "void":
+                if row.get("reserved"):
+                    state["pending_position"] = round(
+                        float(state.get("pending_position") or 0.0) - reserved_delta, 2
+                    )
+                row.update({"status": "void", "reserved": False, "settled_sweep": n})
+                if outcome.get("reason"):
+                    row["void_reason"] = outcome["reason"]
+            else:
+                raise RuntimeError(f"sweep {n} has an unknown participant trade outcome")
+        state["archive_reconciled_sweep"] = n
+    state["archive_settled_trade_ids"] = sorted(settled_ids)
+    if sweeps:
+        print(
+            f"[ARCHIVE RECONCILE] sweeps {sweeps[0]}..{sweeps[-1]} "
+            f"participant trade updates={changed} position={state.get('position', 0.0):.2f}",
+            flush=True,
+        )
+    return changed
 
 
 def post_signed(key: Ed25519PrivateKey, did: str, state: dict, text: str, dry_run: bool) -> None:
@@ -250,15 +428,6 @@ def apply_flow(state: dict, oldest_flow_sweep: int, settled: set[str], void: dic
             if reserved:
                 pending = round(pending - delta, 2)
             print(f"void {trade_id} reason={void[trade_id]}", flush=True)
-        elif oldest_flow_sweep and int(trade.get("sweep") or 0) and int(trade["sweep"]) < oldest_flow_sweep:
-            trade["status"] = "unseen"
-            trade["reserved"] = False
-            if reserved:
-                pending = round(pending - delta, 2)
-            print(
-                f"unseen {trade_id} sweep={trade.get('sweep')} left the flow without settled or void",
-                flush=True,
-            )
         else:
             waiting = True
             print(f"waiting {trade_id} {trade.get('own_side')} qty={qty:.2f} sweep={trade.get('sweep')}", flush=True)
@@ -379,12 +548,9 @@ def accept_offers(
             if state.get("unreconciled_probe_gross_qty", 0.0) + qty > cap:
                 continue
         else:
-            projected = (
-                state.get("position", 0.0)
-                + state.get("pending_position", 0.0)
-                + own_delta
-            )
-            if abs(projected) > max_position():
+            current = state.get("position", 0.0) + state.get("pending_position", 0.0)
+            projected = current + own_delta
+            if not position_change_allowed(current, projected, max_position()):
                 continue
         trade_id = terms.get("id")
         if not isinstance(trade_id, str) or trade_id in state["trades"]:
@@ -409,6 +575,7 @@ def accept_offers(
             "sweep": sweep,
             "own_side": "sell" if side == "buy" else "buy",
             "qty": qty,
+            "until": terms["until"],
             "status": "pending",
             "reserved": not dry_run,
         }
@@ -476,6 +643,12 @@ def main() -> None:
                 if looked_up is not None:
                     position = looked_up
                     source = "referee"
+                elif (
+                    isinstance(state.get("reconciliation"), dict)
+                    and state["reconciliation"].get("source") == "challenges.technocore.chat close-1 referee archive"
+                ):
+                    position = float(state.get("position") or 0.0)
+                    source = f"archive-{state.get('reconciled_baseline_sweep')}"
                 else:
                     position = float(state.get("position") or 0.0)
                     source = "local"
@@ -509,6 +682,8 @@ def main() -> None:
         print(f"registered {did}")
 
     sweep, reference, lower, upper = latest_price()
+    if live and not unreconciled_probe:
+        reconcile_archive_sweeps(state, did)
     oldest_flow, settled_ids, void_ids = flow_outcomes()
     waiting = apply_flow(state, oldest_flow, settled_ids, void_ids)
     if forecast is None:
@@ -530,25 +705,39 @@ def main() -> None:
         isinstance(trade, dict) and trade.get("status") == "pending" and trade.get("reserved")
         for trade in state.get("trades", {}).values()
     )
-    # Quote the reference on the forecast side only, once per sweep.
-    quote = round(reference, 2)
+    # Quote within the edge and referee-band gates. If reconciled exposure is
+    # already beyond the cap, quote only to reduce it; never deepen the breach.
     position = round(state.get("position", 0.0) + state.get("pending_position", 0.0), 2)
     max_pos = max_position()
-    qty = min(cap, max(0.0, max_pos - abs(position)))
-    qty = float(f"{qty:.2f}")
     can_quote = (
         not waiting
         and not open_take
         and (not unreconciled_probe or allow_unreconciled_live)
         and state.get("last_quote_sweep") != sweep
     )
-    if can_quote and qty >= 0.1:
-        if forecast > reference and position + qty <= max_pos:
-            make_offer(key, did, state, quote, "buy", qty, sweep + 2, dry_run)
-            print(f"{'DRY_RUN ' if dry_run else ''}posted buy px={quote:.2f} qty={qty:.2f}", flush=True)
-        elif forecast < reference and position - qty >= -max_pos:
-            make_offer(key, did, state, quote, "sell", qty, sweep + 2, dry_run)
-            print(f"{'DRY_RUN ' if dry_run else ''}posted sell px={quote:.2f} qty={qty:.2f}", flush=True)
+    if can_quote and forecast is not None:
+        if abs(position) > max_pos:
+            side = "buy" if position < 0 else "sell"
+            qty = min(cap, abs(position) - max_pos)
+        else:
+            side = "buy" if forecast > reference else "sell" if forecast < reference else ""
+            qty = min(cap, max(0.0, max_pos - abs(position)))
+        qty = float(f"{qty:.2f}")
+        quote = maker_quote_price(side, reference, lower, upper, forecast) if side else None
+        if quote is not None and qty >= 0.1:
+            price, edge_after_stress = quote
+            make_offer(key, did, state, price, side, qty, sweep + 2, dry_run)
+            print(
+                f"{'DRY_RUN ' if dry_run else ''}posted {side} px={price:.2f} qty={qty:.2f} "
+                f"forecast_edge_after_stress={edge_after_stress:.4f}",
+                flush=True,
+            )
+        elif abs(position) > max_pos:
+            print(
+                f"position {position:.2f} exceeds cap {max_pos:.2f}; no risk-reducing "
+                "quote fits both the forecast edge and referee band",
+                flush=True,
+            )
         state["last_quote_sweep"] = sweep
     if live:
         save_state(state)

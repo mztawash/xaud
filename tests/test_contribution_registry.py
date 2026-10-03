@@ -40,6 +40,8 @@ class ContributionRegistryTests(unittest.TestCase):
     def test_active_rooms_include_registry_and_tclk_rendezvous(self):
         self.assertIn("tclk-offers", agent.ACTIVE_ROOMS)
         self.assertIn("xaud", agent.ACTIVE_ROOMS)
+        self.assertIn("close1", agent.ACTIVE_ROOMS)
+        self.assertIn("d-close1-flow", agent.ACTIVE_ROOMS)
 
     def test_saved_tclk_cursor_rooms_are_eligible_for_restart_restore(self):
         state = {
